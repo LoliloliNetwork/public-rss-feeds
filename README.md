@@ -6,4 +6,4 @@ My personal rss feeds from [LoliloliNetwork/rss-feeds](https://github.com/Lolilo
 
 | Blog                                                                                      | Feed                                                                                                                                                 |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Gemini CLI Changelog](https://geminicli.com/docs/changelogs/)                            | [feed_gemini_cli_changelog.xml](https://raw.githubusercontent.com/LoliLoliNetwork/rss-feeds/main/feeds/feed_gemini_cli_changelog.xml)                         |
+| [Gemini CLI Changelog](https://geminicli.com/docs/changelogs/)                            | [feed_gemini_cli_changelog.xml](https://raw.githubusercontent.com/LoliLoliNetwork/public-rss-feeds/main/feeds/feed_gemini_cli_changelog.xml)                         |
