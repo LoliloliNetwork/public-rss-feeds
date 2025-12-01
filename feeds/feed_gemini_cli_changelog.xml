@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Gemini CLI Changelog</title>
+    <link>https://geminicli.com/feeds/feed_gemini_cli_changelog.xml</link>
+    <description>Stay up-to-date with new features, improvements, and bug fixes.</description>
+    <atom:link href="https://geminicli.com/feeds/feed_gemini_cli_changelog.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://geminicli.com/icon.png</url>
+      <title>Gemini CLI Changelog</title>
+      <link>https://geminicli.com/feeds/feed_gemini_cli_changelog.xml</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Sun, 30 Nov 2025 14:59:03 +0000</lastBuildDate>
+    <item>
+      <title>v0.15.0 - Gemini CLI weekly update - 2025-11-03</title>
+      <link>https://geminicli.com/docs/changelogs/#v0150---gemini-cli-weekly-update---2025-11-03</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;🎉 Seamless scrollable UI &amp;amp; mouse support:&lt;/strong&gt; We’ve given Gemini CLI a major
+facelift to make your terminal experience smoother and much more polished. You
+now get a flicker-free display with sticky headers that keep important context
+visible and a stable input prompt that doesn’t jump around. We even added
+mouse support so you can click right where you need to type!
+(&lt;a href="https://imgur.com/a/O6qc7bx"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/jacob314"&gt;@jacob314&lt;/a&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Announcement:&lt;/strong&gt;
+&lt;a href="https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/"&gt;https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;🎉 New partner extensions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Arize:&lt;/strong&gt; Seamlessly instrument AI applications with Arize AX and grant
+direct access to Arize support:&lt;/p&gt;
+&lt;p&gt;&lt;code dir="auto"&gt;gemini extensions install https://github.com/Arize-ai/arize-tracing-assistant&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Chronosphere:&lt;/strong&gt; Retrieve logs, metrics, traces, events, and specific
+entities:&lt;/p&gt;
+&lt;p&gt;&lt;code dir="auto"&gt;gemini extensions install https://github.com/chronosphereio/chronosphere-mcp&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Transmit:&lt;/strong&gt; Comprehensive context, validation, and automated fixes for
+creating production-ready authentication and identity workflows:&lt;/p&gt;
+&lt;p&gt;&lt;code dir="auto"&gt;gemini extensions install https://github.com/TransmitSecurity/transmit-security-journey-builder&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Todo planning:&lt;/strong&gt; Complex questions now get broken down into todo lists that
+the model can manage and check off. (&lt;a href="https://imgur.com/a/EGDfNlZ"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/12905"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/anj-s"&gt;@anj-s&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Disable GitHub extensions:&lt;/strong&gt; Users can now prevent the installation and
+loading of extensions from GitHub.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/12838"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/kevinjwang1"&gt;@kevinjwang1&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Extensions restart:&lt;/strong&gt; Users can now explicitly restart extensions using the
+&lt;code dir="auto"&gt;/extensions restart&lt;/code&gt; command.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/12739"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/jakemac53"&gt;@jakemac53&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Better Angular support:&lt;/strong&gt; Angular workflows should now be more seamless
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10252"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/MarkTechson"&gt;@MarkTechson&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Validate command:&lt;/strong&gt; Users can now check that local extensions are formatted
+correctly. (&lt;a href="https://github.com/google-gemini/gemini-cli/pull/12186"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/kevinjwang1"&gt;@kevinjwang1&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v0150---gemini-cli-weekly-update---2025-11-03</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.12.0 - Gemini CLI weekly update - 2025-10-27</title>
+      <link>https://geminicli.com/docs/changelogs/#v0120---gemini-cli-weekly-update---2025-10-27</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;🎉 New partner extensions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;🤗 Hugging Face extension:&lt;/strong&gt; Access the Hugging Face hub.
+(&lt;a href="https://drive.google.com/file/d/1LEzIuSH6_igFXq96_tWev11svBNyPJEB/view?usp=sharing&amp;amp;resourcekey=0-LtPTzR1woh-rxGtfPzjjfg"&gt;gif&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;code dir="auto"&gt;gemini extensions install https://github.com/huggingface/hf-mcp-server&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Monday.com extension&lt;/strong&gt;: Analyze your sprints, update your task boards,
+etc.
+(&lt;a href="https://drive.google.com/file/d/1cO0g6kY1odiBIrZTaqu5ZakaGZaZgpQv/view?usp=sharing&amp;amp;resourcekey=0-xEr67SIjXmAXRe1PKy7Jlw"&gt;gif&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;code dir="auto"&gt;gemini extensions install https://github.com/mondaycom/mcp&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data Commons extension:&lt;/strong&gt; Query public datasets or ground responses on
+data from Data Commons
+(&lt;a href="https://drive.google.com/file/d/1cuj-B-vmUkeJnoBXrO_Y1CuqphYc6p-O/view?usp=sharing&amp;amp;resourcekey=0-0adXCXDQEd91ZZW63HbW-Q"&gt;gif&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;code dir="auto"&gt;gemini extensions install https://github.com/gemini-cli-extensions/datacommons&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Model selection:&lt;/strong&gt; Choose the Gemini model for your session with &lt;code dir="auto"&gt;/model&lt;/code&gt;.
+(&lt;a href="https://imgur.com/a/ABFcWWw"&gt;pic&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8940"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/abhipatel12"&gt;@abhipatel12&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Model routing:&lt;/strong&gt; Gemini CLI will now intelligently pick the best model for
+the task. Simple queries will be sent to Flash while complex analytical or
+creative tasks will still use the power of Pro. This ensures your quota will
+last for a longer period of time. You can always opt-out of this via &lt;code dir="auto"&gt;/model&lt;/code&gt;.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/9262"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/abhipatel12"&gt;@abhipatel12&lt;/a&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Discussion:
+&lt;a href="https://github.com/google-gemini/gemini-cli/discussions/12375"&gt;https://github.com/google-gemini/gemini-cli/discussions/12375&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Codebase investigator subagent:&lt;/strong&gt; We now have a new built-in subagent that
+will explore your workspace and resolve relevant information to improve
+overall performance.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/9988"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/abhipatel12"&gt;@abhipatel12&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10282"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/silviojr"&gt;@silviojr&lt;/a&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable, disable, or limit turns in &lt;code dir="auto"&gt;/settings&lt;/code&gt;, plus advanced configs in
+&lt;code dir="auto"&gt;settings.json&lt;/code&gt; (&lt;a href="https://imgur.com/a/yJiggNO"&gt;pic&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10844"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/silviojr"&gt;@silviojr&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Explore extensions with &lt;code dir="auto"&gt;/extension&lt;/code&gt;:&lt;/strong&gt; Users can now open the extensions
+page in their default browser directly from the CLI using the &lt;code dir="auto"&gt;/extension&lt;/code&gt;
+explore command. (&lt;a href="https://github.com/google-gemini/gemini-cli/pull/11846"&gt;pr&lt;/a&gt;
+by &lt;a href="https://github.com/JayadityaGit"&gt;@JayadityaGit&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Configurable compression:&lt;/strong&gt; Users can modify the compression threshold in
+&lt;code dir="auto"&gt;/settings&lt;/code&gt;. The default has been made more proactive
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/12317"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/scidomino"&gt;@scidomino&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;API key authentication:&lt;/strong&gt; Users can now securely enter and store their
+Gemini API key via a new dialog, eliminating the need for environment
+variables and repeated entry.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/11760"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/galz10"&gt;@galz10&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sequential approval:&lt;/strong&gt; Users can now approve multiple tool calls
+sequentially during execution.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/11593"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/joshualitt"&gt;@joshualitt&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v0120---gemini-cli-weekly-update---2025-10-27</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.11.0 - Gemini CLI weekly update - 2025-10-20</title>
+      <link>https://geminicli.com/docs/changelogs/#v0110---gemini-cli-weekly-update---2025-10-20</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;🎉 &lt;strong&gt;Gemini CLI Jules Extension:&lt;/strong&gt; Use Gemini CLI to orchestrate Jules. Spawn
+remote workers, delegate tedious tasks, or check in on running jobs!
+&lt;ul&gt;
+&lt;li&gt;Install:
+&lt;code dir="auto"&gt;gemini extensions install https://github.com/gemini-cli-extensions/jules&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Announcement:
+&lt;a href="https://developers.googleblog.com/en/introducing-the-jules-extension-for-gemini-cli/"&gt;https://developers.googleblog.com/en/introducing-the-jules-extension-for-gemini-cli/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stream JSON output:&lt;/strong&gt; Stream real-time JSONL events with
+&lt;code dir="auto"&gt;--output-format stream-json&lt;/code&gt; to monitor AI agent progress when run
+headlessly. (&lt;a href="https://imgur.com/a/0UCE81X"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10883"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/anj-s"&gt;@anj-s&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown toggle:&lt;/strong&gt; Users can now switch between rendered and raw markdown
+display using &lt;code dir="auto"&gt;alt+m &lt;/code&gt;or&lt;code dir="auto"&gt; ctrl+m&lt;/code&gt;. (&lt;a href="https://imgur.com/a/lDNdLqr"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10383"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/srivatsj"&gt;@srivatsj&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Queued message editing:&lt;/strong&gt; Users can now quickly edit queued messages by
+pressing the up arrow key when the input is empty.
+(&lt;a href="https://imgur.com/a/ioRslLd"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10392"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/akhil29"&gt;@akhil29&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSON web fetch&lt;/strong&gt;: Non-HTML content like JSON APIs or raw source code are now
+properly shown to the model (previously only supported HTML)
+(&lt;a href="https://imgur.com/a/Q58U4qJ"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/11284"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/abhipatel12"&gt;@abhipatel12&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-interactive MCP commands:&lt;/strong&gt; Users can now run MCP slash commands in
+non-interactive mode &lt;code dir="auto"&gt;gemini "/some-mcp-prompt"&lt;/code&gt;.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10194"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/capachino"&gt;@capachino&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Removal of deprecated flags:&lt;/strong&gt; We’ve finally removed a number of deprecated
+flags to cleanup Gemini CLI’s invocation profile:
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;--all-files&lt;/code&gt; / &lt;code dir="auto"&gt;-a&lt;/code&gt; in favor of &lt;code dir="auto"&gt;@&lt;/code&gt; from within Gemini CLI.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/11228"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/allenhutchison"&gt;@allenhutchison&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;--telemetry-*&lt;/code&gt; flags in favor of
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/11318"&gt;environment variables&lt;/a&gt;
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/11318"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/allenhutchison"&gt;@allenhutchison&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v0110---gemini-cli-weekly-update---2025-10-20</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.10.0 - Gemini CLI weekly update - 2025-10-13</title>
+      <link>https://geminicli.com/docs/changelogs/#v0100---gemini-cli-weekly-update---2025-10-13</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Polish:&lt;/strong&gt; The team has been heads down bug fixing and investing heavily into
+polishing existing flows, tools, and interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactive Shell Tool calling:&lt;/strong&gt; Gemini CLI can now also execute
+interactive tools if needed
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/11225"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/galz10"&gt;@galz10&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alt+Key support:&lt;/strong&gt; Enables broader support for Alt+Key keyboard shortcuts
+across different terminals.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10767"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/srivatsj"&gt;@srivatsj&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telemetry Diff stats:&lt;/strong&gt; Track line changes made by the model and user during
+file operations via OTEL.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10819"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/jerop"&gt;@jerop&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v0100---gemini-cli-weekly-update---2025-10-13</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.9.0 - Gemini CLI weekly update - 2025-10-06</title>
+      <link>https://geminicli.com/docs/changelogs/#v090---gemini-cli-weekly-update---2025-10-06</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;🎉 &lt;strong&gt;Interactive Shell:&lt;/strong&gt; Run interactive commands like &lt;code dir="auto"&gt;vim&lt;/code&gt;, &lt;code dir="auto"&gt;rebase -i&lt;/code&gt;, or
+even &lt;code dir="auto"&gt;gemini&lt;/code&gt; 😎 directly in Gemini CLI:
+&lt;ul&gt;
+&lt;li&gt;Blog:
+&lt;a href="https://developers.googleblog.com/en/say-hello-to-a-new-level-of-interactivity-in-gemini-cli/"&gt;https://developers.googleblog.com/en/say-hello-to-a-new-level-of-interactivity-in-gemini-cli/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Install pre-release extensions:&lt;/strong&gt; Install the latest &lt;code dir="auto"&gt;--pre-release&lt;/code&gt;
+versions of extensions. Used for when an extension’s release hasn’t been
+marked as “latest”.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10752"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/jakemac53"&gt;@jakemac53&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplified extension creation:&lt;/strong&gt; Create a new, empty extension. Templates
+are no longer required.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10629"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/chrstnb"&gt;@chrstnb&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenTelemetry GenAI metrics:&lt;/strong&gt; Aligns telemetry with industry-standard
+semantic conventions for improved interoperability.
+(&lt;a href="https://opentelemetry.io/docs/concepts/semantic-conventions/"&gt;spec&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10343"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/jerop"&gt;@jerop&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;List memory files:&lt;/strong&gt; Quickly find the location of your long-term memory
+files with &lt;code dir="auto"&gt;/memory list&lt;/code&gt;.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/10108"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/sgnagnarella"&gt;@sgnagnarella&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v090---gemini-cli-weekly-update---2025-10-06</guid>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.8.0 - Gemini CLI weekly update - 2025-09-29</title>
+      <link>https://geminicli.com/docs/changelogs/#v080---gemini-cli-weekly-update---2025-09-29</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;🎉 &lt;strong&gt;Announcing Gemini CLI Extensions&lt;/strong&gt; 🎉
+&lt;ul&gt;
+&lt;li&gt;Completely customize your Gemini CLI experience to fit your workflow.&lt;/li&gt;
+&lt;li&gt;Build and share your own Gemini CLI extensions with the world.&lt;/li&gt;
+&lt;li&gt;Launching with a growing catalog of community, partner, and Google-built
+extensions.
+&lt;ul&gt;
+&lt;li&gt;Check extensions from
+&lt;a href="https://github.com/google-gemini/gemini-cli/discussions/10718"&gt;key launch partners&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Easy install:
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;gemini extensions install &amp;lt;github url|folder path&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Easy management:
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;gemini extensions install|uninstall|link&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;gemini extensions enable|disable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;gemini extensions list|update|new&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Or use commands while running with &lt;code dir="auto"&gt;/extensions list|update&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Everything you need to know:
+&lt;a href="https://blog.google/technology/developers/gemini-cli-extensions/"&gt;Now open for building: Introducing Gemini CLI extensions&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎉 &lt;strong&gt;Our New Home Page &amp;amp; Better Documentation&lt;/strong&gt; 🎉
+&lt;ul&gt;
+&lt;li&gt;Check out our new home page for better getting started material, reference
+documentation, extensions and more!&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Homepage:&lt;/em&gt; &lt;a href="https://geminicli.com"&gt;https://geminicli.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;‼️&lt;em&gt;NEW documentation:&lt;/em&gt;
+&lt;a href="https://geminicli.com/docs"&gt;https://geminicli.com/docs&lt;/a&gt; (Have any
+&lt;a href="https://github.com/google-gemini/gemini-cli/discussions/8722"&gt;suggestions&lt;/a&gt;?)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Extensions:&lt;/em&gt;
+&lt;a href="https://geminicli.com/extensions"&gt;https://geminicli.com/extensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-Interactive Allowed Tools:&lt;/strong&gt; &lt;code dir="auto"&gt;--allowed-tools&lt;/code&gt; will now also work in
+non-interactive mode.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/9114"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/mistergarrison"&gt;@mistergarrison&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terminal Title Status:&lt;/strong&gt; See the CLI’s real-time status and thoughts
+directly in the terminal window’s title by setting &lt;code dir="auto"&gt;showStatusInTitle: true&lt;/code&gt;.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/4386"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/Fridayxiao"&gt;@Fridayxiao&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Small features, polish, reliability &amp;amp; bug fixes:&lt;/strong&gt; A large amount of
+changes, smaller features, UI updates, reliability and bug fixes + general
+polish made it in this week!&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v080---gemini-cli-weekly-update---2025-09-29</guid>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.7.0 - Gemini CLI weekly update - 2025-09-22</title>
+      <link>https://geminicli.com/docs/changelogs/#v070---gemini-cli-weekly-update---2025-09-22</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;🎉&lt;strong&gt;Build your own Gemini CLI IDE plugin:&lt;/strong&gt; We’ve published a spec for
+creating IDE plugins to enable rich context-aware experiences and native
+in-editor diffing in your IDE of choice.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8479"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/skeshive"&gt;@skeshive&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;🎉 &lt;strong&gt;Gemini CLI extensions&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flutter:&lt;/strong&gt; An early version to help you create, build, test, and run
+Flutter apps with Gemini CLI
+(&lt;a href="https://github.com/gemini-cli-extensions/flutter"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;nanobanana:&lt;/strong&gt; Integrate nanobanana into Gemini CLI
+(&lt;a href="https://github.com/gemini-cli-extensions/nanobanana"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telemetry config via environment:&lt;/strong&gt; Manage telemetry settings using
+environment variables for a more flexible setup.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/telemetry.md#configuration"&gt;docs&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/9113"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/jerop"&gt;@jerop&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;​​Experimental todos:&lt;/strong&gt; Track and display progress on complex tasks with a
+managed checklist. Off by default but can be enabled via
+&lt;code dir="auto"&gt;"useWriteTodos": true&lt;/code&gt;
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8761"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/anj-s"&gt;@anj-s&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Share chat support for tools:&lt;/strong&gt; Using &lt;code dir="auto"&gt;/chat share&lt;/code&gt; will now also render
+function calls and responses in the final markdown file.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8693"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/rramkumar1"&gt;@rramkumar1&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Citations:&lt;/strong&gt; Now enabled for all users
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8570"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/scidomino"&gt;@scidomino&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom commands in Headless Mode:&lt;/strong&gt; Run custom slash commands directly from
+the command line in non-interactive mode: &lt;code dir="auto"&gt;gemini "/joke Chuck Norris"&lt;/code&gt;
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8305"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/capachino"&gt;@capachino&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Small features, polish, reliability &amp;amp; bug fixes:&lt;/strong&gt; A large amount of
+changes, smaller features, UI updates, reliability and bug fixes + general
+polish made it in this week!&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v070---gemini-cli-weekly-update---2025-09-22</guid>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.6.0 - Gemini CLI weekly update - 2025-09-15</title>
+      <link>https://geminicli.com/docs/changelogs/#v060---gemini-cli-weekly-update---2025-09-15</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;🎉 &lt;strong&gt;Higher limits for Google AI Pro and Ultra subscribers:&lt;/strong&gt; We’re psyched to
+finally announce that Google AI Pro and AI Ultra subscribers now get access to
+significantly higher 2.5 quota limits for Gemini CLI!
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Announcement:&lt;/strong&gt;
+&lt;a href="https://blog.google/technology/developers/gemini-cli-code-assist-higher-limits/"&gt;https://blog.google/technology/developers/gemini-cli-code-assist-higher-limits/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎉&lt;strong&gt;Gemini CLI Databases and BigQuery Extensions:&lt;/strong&gt; Connect Gemini CLI to all
+of your cloud data with Gemini CLI.
+&lt;ul&gt;
+&lt;li&gt;Announcement and how to get started with each of the below extensions:
+&lt;a href="https://cloud.google.com/blog/products/databases/gemini-cli-extensions-for-google-data-cloud?e=48754805"&gt;https://cloud.google.com/blog/products/databases/gemini-cli-extensions-for-google-data-cloud?e=48754805&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AlloyDB:&lt;/strong&gt; Interact, manage and observe AlloyDB for PostgreSQL databases
+(&lt;a href="https://github.com/gemini-cli-extensions/alloydb#configuration"&gt;manage&lt;/a&gt;,
+&lt;a href="https://github.com/gemini-cli-extensions/alloydb-observability#configuration"&gt;observe&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BigQuery:&lt;/strong&gt; Connect and query your BigQuery datasets or utilize a
+sub-agent for contextual insights
+(&lt;a href="https://github.com/gemini-cli-extensions/bigquery-data-analytics#configuration"&gt;query&lt;/a&gt;,
+&lt;a href="https://github.com/gemini-cli-extensions/bigquery-conversational-analytics"&gt;sub-agent&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud SQL:&lt;/strong&gt; Interact, manage and observe Cloud SQL for PostgreSQL
+(&lt;a href="https://github.com/gemini-cli-extensions/cloud-sql-postgresql#configuration"&gt;manage&lt;/a&gt;,&lt;a href="https://github.com/gemini-cli-extensions/cloud-sql-postgresql-observability#configuration"&gt; observe&lt;/a&gt;),
+Cloud SQL for MySQL
+(&lt;a href="https://github.com/gemini-cli-extensions/cloud-sql-mysql#configuration"&gt;manage&lt;/a&gt;,&lt;a href="https://github.com/gemini-cli-extensions/cloud-sql-mysql-observability#configuration"&gt; observe&lt;/a&gt;)
+and Cloud SQL for SQL Server
+(&lt;a href="https://github.com/gemini-cli-extensions/cloud-sql-sqlserver#configuration"&gt;manage&lt;/a&gt;,&lt;a href="https://github.com/gemini-cli-extensions/cloud-sql-sqlserver-observability#configuration"&gt; observe&lt;/a&gt;)
+databases.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dataplex:&lt;/strong&gt; Discover, manage, and govern data and AI artifacts
+(&lt;a href="https://github.com/gemini-cli-extensions/dataplex#configuration"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firestore:&lt;/strong&gt; Interact with Firestore databases, collections and documents
+(&lt;a href="https://github.com/gemini-cli-extensions/firestore-native#configuration"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Looker:&lt;/strong&gt; Query data, run Looks and create dashboards
+(&lt;a href="https://github.com/gemini-cli-extensions/looker#configuration"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MySQL:&lt;/strong&gt; Interact with MySQL databases
+(&lt;a href="https://github.com/gemini-cli-extensions/mysql#configuration"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Postgres:&lt;/strong&gt; Interact with PostgreSQL databases
+(&lt;a href="https://github.com/gemini-cli-extensions/postgres#configuration"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spanner:&lt;/strong&gt; Interact with Spanner databases
+(&lt;a href="https://github.com/gemini-cli-extensions/spanner#configuration"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQL Server:&lt;/strong&gt; Interact with SQL Server databases
+(&lt;a href="https://github.com/gemini-cli-extensions/sql-server#configuration"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCP Toolbox:&lt;/strong&gt; Configure and load custom tools for more than 30+ data
+sources
+(&lt;a href="https://github.com/gemini-cli-extensions/mcp-toolbox#configuration"&gt;extension&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSON output mode:&lt;/strong&gt; Have Gemini CLI output JSON with &lt;code dir="auto"&gt;--output-format json&lt;/code&gt;
+when invoked headlessly for easy parsing and post-processing. Includes
+response, stats and errors.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8119"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/jerop"&gt;@jerop&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keybinding triggered approvals:&lt;/strong&gt; When you use shortcuts (&lt;code dir="auto"&gt;shift+y&lt;/code&gt; or
+&lt;code dir="auto"&gt;shift+tab&lt;/code&gt;) to activate YOLO/auto-edit modes any pending confirmation dialogs
+will now approve. (&lt;a href="https://github.com/google-gemini/gemini-cli/pull/6665"&gt;pr&lt;/a&gt;
+by &lt;a href="https://github.com/bulkypanda"&gt;@bulkypanda&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chat sharing:&lt;/strong&gt; Convert the current conversation to a Markdown or JSON file
+with &lt;em&gt;/chat share &amp;lt;file.md|file.json&amp;gt;&lt;/em&gt;
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8139"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/rramkumar1"&gt;@rramkumar1&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prompt search:&lt;/strong&gt; Search your prompt history using &lt;code dir="auto"&gt;ctrl+r&lt;/code&gt;.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/5539"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/Aisha630"&gt;@Aisha630&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Input undo/redo:&lt;/strong&gt; Recover accidentally deleted text in the input prompt
+using &lt;code dir="auto"&gt;ctrl+z&lt;/code&gt; (undo) and &lt;code dir="auto"&gt;ctrl+shift+z&lt;/code&gt; (redo).
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/4625"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/masiafrest"&gt;@masiafrest&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Loop detection confirmation:&lt;/strong&gt; When loops are detected you are now presented
+with a dialog to disable detection for the current session.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8231"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/SandyTao520"&gt;@SandyTao520&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Direct to Google Cloud Telemetry:&lt;/strong&gt; Directly send telemetry to Google Cloud
+for a simpler and more streamlined setup.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8541"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/jerop"&gt;@jerop&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visual Mode Indicator Revamp:&lt;/strong&gt; ‘shell’, ‘accept edits’ and ‘yolo’ modes now
+have colors to match their impact / usage. Input box now also updates.
+(&lt;a href="https://imgur.com/a/DovpVF1"&gt;shell&lt;/a&gt;,
+&lt;a href="https://imgur.com/a/33KDz3J"&gt;accept-edits&lt;/a&gt;,
+&lt;a href="https://imgur.com/a/tbFwIWp"&gt;yolo&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8200"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/miguelsolorio"&gt;@miguelsolorio&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Small features, polish, reliability &amp;amp; bug fixes:&lt;/strong&gt; A large amount of
+changes, smaller features, UI updates, reliability and bug fixes + general
+polish made it in this week!&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v060---gemini-cli-weekly-update---2025-09-15</guid>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.5.0 - Gemini CLI weekly update - 2025-09-08</title>
+      <link>https://geminicli.com/docs/changelogs/#v050---gemini-cli-weekly-update---2025-09-08</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;🎉&lt;strong&gt;FastMCP + Gemini CLI&lt;/strong&gt;🎉: Quickly install and manage your Gemini CLI MCP
+servers with FastMCP (&lt;a href="https://imgur.com/a/m8QdCPh"&gt;video&lt;/a&gt;,
+&lt;a href="https://github.com/jlowin/fastmcp/pull/1709"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/jackwotherspoon"&gt;@jackwotherspoon&lt;/a&gt;&lt;strong&gt;)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Getting started:
+&lt;a href="https://gofastmcp.com/integrations/gemini-cli"&gt;https://gofastmcp.com/integrations/gemini-cli&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Positional Prompt for Non-Interactive:&lt;/strong&gt; Seamlessly invoke Gemini CLI
+headlessly via &lt;code dir="auto"&gt;gemini "Hello"&lt;/code&gt;. Synonymous with passing &lt;code dir="auto"&gt;-p&lt;/code&gt;.
+(&lt;a href="https://imgur.com/a/hcBznpB"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7668"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/allenhutchison"&gt;@allenhutchison&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experimental Tool output truncation:&lt;/strong&gt; Enable truncating shell tool outputs
+and saving full output to a file by setting
+&lt;code dir="auto"&gt;"enableToolOutputTruncation": true &lt;/code&gt;(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/8039"&gt;pr&lt;/a&gt;
+by &lt;a href="https://github.com/SandyTao520"&gt;@SandyTao520&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit Tool improvements:&lt;/strong&gt; Gemini CLI’s ability to edit files should now be
+far more capable. (&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7679"&gt;pr&lt;/a&gt;
+by &lt;a href="https://github.com/silviojr"&gt;@silviojr&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom witty messages:&lt;/strong&gt; The feature you’ve all been waiting for…
+Personalized witty loading messages via
+&lt;code dir="auto"&gt;"ui": { "customWittyPhrases": ["YOLO"]}&lt;/code&gt; in &lt;code dir="auto"&gt;settings.json&lt;/code&gt;.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7641"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/JayadityaGit"&gt;@JayadityaGit&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nested .gitignore File Handling:&lt;/strong&gt; Nested &lt;code dir="auto"&gt;.gitignore&lt;/code&gt; files are now
+respected. (&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7645"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/gsquared94"&gt;@gsquared94&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enforced authentication:&lt;/strong&gt; System administrators can now mandate a specific
+authentication method via
+&lt;code dir="auto"&gt;"enforcedAuthType": "oauth-personal|gemini-api-key|…"&lt;/code&gt;in &lt;code dir="auto"&gt;settings.json&lt;/code&gt;.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/6564"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/chrstnb"&gt;@chrstnb&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A2A development-tool extension:&lt;/strong&gt; An RFC for an Agent2Agent
+(&lt;a href="https://a2a-protocol.org/latest/"&gt;A2A&lt;/a&gt;) powered extension for developer tool
+use cases.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/discussions/7822"&gt;feedback&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7817"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/skeshive"&gt;@skeshive&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;**Hands on Codelab:
+**&lt;a href="https://codelabs.developers.google.com/gemini-cli-hands-on"&gt;https://codelabs.developers.google.com/gemini-cli-hands-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Small features, polish, reliability &amp;amp; bug fixes:&lt;/strong&gt; A large amount of
+changes, smaller features, UI updates, reliability and bug fixes + general
+polish made it in this week!&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v050---gemini-cli-weekly-update---2025-09-08</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>v0.4.0 - Gemini CLI weekly update - 2025-09-01</title>
+      <link>https://geminicli.com/docs/changelogs/#v040---gemini-cli-weekly-update---2025-09-01</link>
+      <description>&lt;![CDATA[&lt;ul&gt;
+&lt;li&gt;🎉&lt;strong&gt;Gemini CLI CloudRun and Security Integrations&lt;/strong&gt;🎉: Automate app deployment
+and security analysis with CloudRun and Security extension integrations. Once
+installed deploy your app to the cloud with &lt;code dir="auto"&gt;/deploy&lt;/code&gt; and find and fix
+security vulnerabilities with &lt;code dir="auto"&gt;/security:analyze&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;Announcement and how to get started:
+&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/automate-app-deployment-and-security-analysis-with-new-gemini-cli-extensions"&gt;https://cloud.google.com/blog/products/ai-machine-learning/automate-app-deployment-and-security-analysis-with-new-gemini-cli-extensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experimental&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Edit Tool:&lt;/strong&gt; Give our new edit tool a try by setting
+&lt;code dir="auto"&gt;"useSmartEdit": true&lt;/code&gt; in &lt;code dir="auto"&gt;settings.json&lt;/code&gt;!
+(&lt;a href="https://github.com/google-gemini/gemini-cli/discussions/7758"&gt;feedback&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/6823"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/silviojr"&gt;@silviojr&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model talking to itself fix:&lt;/strong&gt; We’ve removed a model workaround that would
+encourage Gemini CLI to continue conversations on your behalf. This may be
+disruptive and can be disabled via &lt;code dir="auto"&gt;"skipNextSpeakerCheck": false&lt;/code&gt; in your
+&lt;code dir="auto"&gt;settings.json&lt;/code&gt;
+(&lt;a href="https://github.com/google-gemini/gemini-cli/discussions/6666"&gt;feedback&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7614"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/SandyTao520"&gt;@SandyTao520&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prompt completion:&lt;/strong&gt; Get real-time AI suggestions to complete your prompts
+as you type. Enable it with &lt;code dir="auto"&gt;"general": { "enablePromptCompletion": true }&lt;/code&gt;
+and share your feedback!
+(&lt;a href="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*hvegW7YXOg6N_beUWhTdxA.gif"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/4691"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/3ks"&gt;@3ks&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Footer visibility configuration:&lt;/strong&gt; Customize the CLI’s footer look and feel
+in &lt;code dir="auto"&gt;settings.json&lt;/code&gt;
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7419"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/miguelsolorio"&gt;@miguelsolorio&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;hideCWD&lt;/code&gt;: hide current working directory.&lt;/li&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;hideSandboxStatus&lt;/code&gt;: hide sandbox status.&lt;/li&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;hideModelInfo&lt;/code&gt;: hide current model information.&lt;/li&gt;
+&lt;li&gt;&lt;code dir="auto"&gt;hideContextSummary&lt;/code&gt;: hide request context summary.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Citations:&lt;/strong&gt; For enterprise Code Assist licenses users will now see
+citations in their responses by default. Enable this yourself with
+&lt;code dir="auto"&gt;"showCitations": true&lt;/code&gt;
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7350"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/scidomino"&gt;@scidomino&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pro Quota Dialog:&lt;/strong&gt; Handle daily Pro model usage limits with an interactive
+dialog that lets you immediately switch auth or fallback.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7094"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/JayadityaGit"&gt;@JayadityaGit&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom commands @:&lt;/strong&gt; Embed local file or directory content directly into
+your custom command prompts using &lt;code dir="auto"&gt;@{path}&lt;/code&gt; syntax
+(&lt;a href="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*GosBAo2SjMfFffAnzT7ZMg.gif"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/6716"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/abhipatel12"&gt;@abhipatel12&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.5 Flash Lite support:&lt;/strong&gt; You can now use the &lt;code dir="auto"&gt;gemini-2.5-flash-lite&lt;/code&gt; model
+for Gemini CLI via &lt;code dir="auto"&gt;gemini -m …&lt;/code&gt;.
+(&lt;a href="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*P4SKwnrsyBuULoHrFqsFKQ.gif"&gt;gif&lt;/a&gt;,
+&lt;a href="https://github.com/google-gemini/gemini-cli/pull/4652"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/psinha40898"&gt;@psinha40898&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CLI streamlining:&lt;/strong&gt; We have deprecated a number of command line arguments in
+favor of &lt;code dir="auto"&gt;settings.json&lt;/code&gt; alternatives. We will remove these arguments in a
+future release. See the PR for the full list of deprecations.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7360"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/allenhutchison"&gt;@allenhutchison&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSON session summary:&lt;/strong&gt; Track and save detailed CLI session statistics to a
+JSON file for performance analysis with &lt;code dir="auto"&gt;--session-summary &amp;lt;path&amp;gt;&lt;/code&gt;
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7347"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/leehagoodjames"&gt;@leehagoodjames&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robust keyboard handling:&lt;/strong&gt; More reliable and consistent behavior for arrow
+keys, special keys (Home, End, etc.), and modifier combinations across various
+terminals. (&lt;a href="https://github.com/google-gemini/gemini-cli/pull/7118"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/deepankarsharma"&gt;@deepankarsharma&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCP loading indicator:&lt;/strong&gt; Provides visual feedback during CLI initialization
+when connecting to multiple servers.
+(&lt;a href="https://github.com/google-gemini/gemini-cli/pull/6923"&gt;pr&lt;/a&gt; by
+&lt;a href="https://github.com/swissspidy"&gt;@swissspidy&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Small features, polish, reliability &amp;amp; bug fixes:&lt;/strong&gt; A large amount of
+changes, smaller features, UI updates, reliability and bug fixes + general
+polish made it in this week!&lt;/li&gt;
+&lt;/ul&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://geminicli.com/docs/changelogs/#v040---gemini-cli-weekly-update---2025-09-01</guid>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
