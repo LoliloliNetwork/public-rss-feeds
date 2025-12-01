@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>GitHub Copilot Changelog</title>
+    <link>https://your-domain.com/feeds/feed_github_copilot_changelog.xml</link>
+    <description>Stay up-to-date with new features, improvements, and bug fixes for GitHub Copilot.</description>
+    <atom:link href="https://your-domain.com/feeds/feed_github_copilot_changelog.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png</url>
+      <title>GitHub Copilot Changelog</title>
+      <link>https://your-domain.com/feeds/feed_github_copilot_changelog.xml</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Dec 2025 10:59:36 +0000</lastBuildDate>
+    <item>
+      <title>Control AI spending with budget tracking for GitHub AI tools</title>
+      <link>https://github.blog/changelog/2025-11-03-control-ai-spending-with-budget-tracking-for-github-ai-tools</link>
+      <description>&lt;![CDATA[Control AI spending with budget tracking for GitHub AI tools]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-03-control-ai-spending-with-budget-tracking-for-github-ai-tools</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Copilot policy now supports agent mode in the IDE</title>
+      <link>https://github.blog/changelog/2025-11-03-github-copilot-policy-now-supports-agent-mode-in-the-ide</link>
+      <description>&lt;![CDATA[GitHub Copilot policy now supports agent mode in the IDE]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-03-github-copilot-policy-now-supports-agent-mode-in-the-ide</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Delegate AI controls management to members of your enterprise</title>
+      <link>https://github.blog/changelog/2025-11-03-delegate-ai-controls-management-to-members-of-your-enterprise</link>
+      <description>&lt;![CDATA[Delegate AI controls management to members of your enterprise]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-03-delegate-ai-controls-management-to-members-of-your-enterprise</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Copilot policy update for unconfigured policies</title>
+      <link>https://github.blog/changelog/2025-11-04-github-copilot-policy-update-for-unconfigured-policies</link>
+      <description>&lt;![CDATA[GitHub Copilot policy update for unconfigured policies]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-04-github-copilot-policy-update-for-unconfigured-policies</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copilot coding agent now supports pull request templates</title>
+      <link>https://github.blog/changelog/2025-11-05-copilot-coding-agent-now-supports-pull-request-templates</link>
+      <description>&lt;![CDATA[Copilot coding agent now supports pull request templates]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-05-copilot-coding-agent-now-supports-pull-request-templates</guid>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copilot coding agent supports organization custom instructions</title>
+      <link>https://github.blog/changelog/2025-11-05-copilot-coding-agent-supports-organization-custom-instructions</link>
+      <description>&lt;![CDATA[Copilot coding agent supports organization custom instructions]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-05-copilot-coding-agent-supports-organization-custom-instructions</guid>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The legacy Copilot usage report CSV is no longer available</title>
+      <link>https://github.blog/changelog/2025-11-05-the-legacy-copilot-usage-report-csv-is-no-longer-available</link>
+      <description>&lt;![CDATA[The legacy Copilot usage report CSV is no longer available]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-05-the-legacy-copilot-usage-report-csv-is-no-longer-available</guid>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Raptor mini is rolling out in public preview for GitHub Copilot</title>
+      <link>https://github.blog/changelog/2025-11-10-raptor-mini-is-rolling-out-in-public-preview-for-github-copilot</link>
+      <description>&lt;![CDATA[Raptor mini is rolling out in public preview for GitHub Copilot]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-10-raptor-mini-is-rolling-out-in-public-preview-for-github-copilot</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Sonnet 3.5 deprecated, Claude Haiku 4.5 available in Copilot Free</title>
+      <link>https://github.blog/changelog/2025-11-10-claude-sonnet-3-5-deprecated-claude-haiku-4-5-available-in-copilot-free</link>
+      <description>&lt;![CDATA[Claude Sonnet 3.5 deprecated, Claude Haiku 4.5 available in Copilot Free]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-10-claude-sonnet-3-5-deprecated-claude-haiku-4-5-available-in-copilot-free</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auto model selection for Copilot in Visual Studio in public preview</title>
+      <link>https://github.blog/changelog/2025-11-11-auto-model-selection-for-copilot-in-visual-studio-in-public-preview</link>
+      <description>&lt;![CDATA[Auto model selection for Copilot in Visual Studio in public preview]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-11-auto-model-selection-for-copilot-in-visual-studio-in-public-preview</guid>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copilot code review and coding agent now support agent-specific instructions</title>
+      <link>https://github.blog/changelog/2025-11-12-copilot-code-review-and-coding-agent-now-support-agent-specific-instructions</link>
+      <description>&lt;![CDATA[Copilot code review and coding agent now support agent-specific instructions]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-12-copilot-code-review-and-coding-agent-now-support-agent-specific-instructions</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Manage Copilot coding agent tasks in Visual Studio Code</title>
+      <link>https://github.blog/changelog/2025-11-13-manage-copilot-coding-agent-tasks-in-visual-studio-code</link>
+      <description>&lt;![CDATA[Manage Copilot coding agent tasks in Visual Studio Code]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-13-manage-copilot-coding-agent-tasks-in-visual-studio-code</guid>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI’s GPT-5.1, GPT-5.1-Codex and GPT-5.1-Codex-Mini are now in public preview for GitHub Copilot</title>
+      <link>https://github.blog/changelog/2025-11-13-openais-gpt-5-1-gpt-5-1-codex-and-gpt-5-1-codex-mini-are-now-in-public-preview-for-github-copilot</link>
+      <description>&lt;![CDATA[OpenAI’s GPT-5.1, GPT-5.1-Codex and GPT-5.1-Codex-Mini are now in public preview for GitHub Copilot]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-13-openais-gpt-5-1-gpt-5-1-codex-and-gpt-5-1-codex-mini-are-now-in-public-preview-for-github-copilot</guid>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Configure Copilot coding agent as a bypass actor for rulesets</title>
+      <link>https://github.blog/changelog/2025-11-13-configure-copilot-coding-agent-as-a-bypass-actor-for-rulesets</link>
+      <description>&lt;![CDATA[Configure Copilot coding agent as a bypass actor for rulesets]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-13-configure-copilot-coding-agent-as-a-bypass-actor-for-rulesets</guid>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-grain permissions for Copilot usage metrics now available</title>
+      <link>https://github.blog/changelog/2025-11-17-fine-grain-permissions-for-copilot-usage-metrics-now-available</link>
+      <description>&lt;![CDATA[Fine-grain permissions for Copilot usage metrics now available]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-17-fine-grain-permissions-for-copilot-usage-metrics-now-available</guid>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MCP registry and allowlist controls for VS Code Stable in public preview</title>
+      <link>https://github.blog/changelog/2025-11-18-internal-mcp-registry-and-allowlist-controls-for-vs-code-stable-in-public-preview</link>
+      <description>&lt;![CDATA[MCP registry and allowlist controls for VS Code Stable in public preview]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-internal-mcp-registry-and-allowlist-controls-for-vs-code-stable-in-public-preview</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Copilot coding agent for Eclipse now in public preview</title>
+      <link>https://github.blog/changelog/2025-11-18-github-copilot-coding-agent-for-eclipse-now-in-public-preview</link>
+      <description>&lt;![CDATA[GitHub Copilot coding agent for Eclipse now in public preview]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-github-copilot-coding-agent-for-eclipse-now-in-public-preview</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plan mode in GitHub Copilot now in public preview in JetBrains, Eclipse, and Xcode</title>
+      <link>https://github.blog/changelog/2025-11-18-plan-mode-in-github-copilot-now-in-public-preview-in-jetbrains-eclipse-and-xcode</link>
+      <description>&lt;![CDATA[Plan mode in GitHub Copilot now in public preview in JetBrains, Eclipse, and Xcode]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-plan-mode-in-github-copilot-now-in-public-preview-in-jetbrains-eclipse-and-xcode</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Copilot next edit suggestions (NES) now in public preview for Xcode and Eclipse</title>
+      <link>https://github.blog/changelog/2025-11-18-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse</link>
+      <description>&lt;![CDATA[GitHub Copilot next edit suggestions (NES) now in public preview for Xcode and Eclipse]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Isolated Subagents for JetBrains, Eclipse, and Xcode now in public preview</title>
+      <link>https://github.blog/changelog/2025-11-18-isolated-subagents-for-jetbrains-eclipse-and-xcode-now-in-public-preview</link>
+      <description>&lt;![CDATA[Isolated Subagents for JetBrains, Eclipse, and Xcode now in public preview]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-isolated-subagents-for-jetbrains-eclipse-and-xcode-now-in-public-preview</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Custom agents available in GitHub Copilot for JetBrains, Eclipse, and Xcode now in public preview</title>
+      <link>https://github.blog/changelog/2025-11-18-custom-agents-available-in-github-copilot-for-jetbrains-eclipse-and-xcode-now-in-public-preview</link>
+      <description>&lt;![CDATA[Custom agents available in GitHub Copilot for JetBrains, Eclipse, and Xcode now in public preview]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-custom-agents-available-in-github-copilot-for-jetbrains-eclipse-and-xcode-now-in-public-preview</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auto model selection for Copilot in JetBrains IDEs, Xcode, and Eclipse in public preview</title>
+      <link>https://github.blog/changelog/2025-11-18-auto-model-selection-for-copilot-in-jetbrains-ides-xcode-and-eclipse-in-public-preview</link>
+      <description>&lt;![CDATA[Auto model selection for Copilot in JetBrains IDEs, Xcode, and Eclipse in public preview]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-auto-model-selection-for-copilot-in-jetbrains-ides-xcode-and-eclipse-in-public-preview</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enhanced MCP OAuth support for GitHub Copilot in JetBrains, Eclipse, and Xcode</title>
+      <link>https://github.blog/changelog/2025-11-18-enhanced-mcp-oauth-support-for-github-copilot-in-jetbrains-eclipse-and-xcode</link>
+      <description>&lt;![CDATA[Enhanced MCP OAuth support for GitHub Copilot in JetBrains, Eclipse, and Xcode]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-enhanced-mcp-oauth-support-for-github-copilot-in-jetbrains-eclipse-and-xcode</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini 3 Pro is in public preview for GitHub Copilot</title>
+      <link>https://github.blog/changelog/2025-11-18-gemini-3-pro-is-in-public-preview-for-github-copilot</link>
+      <description>&lt;![CDATA[Gemini 3 Pro is in public preview for GitHub Copilot]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-gemini-3-pro-is-in-public-preview-for-github-copilot</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Copilot CLI: New models, enhanced code search, and better image support</title>
+      <link>https://github.blog/changelog/2025-11-18-github-copilot-cli-new-models-enhanced-code-search-and-better-image-support</link>
+      <description>&lt;![CDATA[GitHub Copilot CLI: New models, enhanced code search, and better image support]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-18-github-copilot-cli-new-models-enhanced-code-search-and-better-image-support</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enterprise bring your own key (BYOK) for GitHub Copilot is now in public preview</title>
+      <link>https://github.blog/changelog/2025-11-20-enterprise-bring-your-own-key-byok-for-github-copilot-is-now-in-public-preview</link>
+      <description>&lt;![CDATA[Enterprise bring your own key (BYOK) for GitHub Copilot is now in public preview]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-20-enterprise-bring-your-own-key-byok-for-github-copilot-is-now-in-public-preview</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linter integration with Copilot code review now in public preview</title>
+      <link>https://github.blog/changelog/2025-11-20-linter-integration-with-copilot-code-review-now-in-public-preview</link>
+      <description>&lt;![CDATA[Linter integration with Copilot code review now in public preview]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-20-linter-integration-with-copilot-code-review-now-in-public-preview</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Opus 4.5 is in public preview for GitHub Copilot</title>
+      <link>https://github.blog/changelog/2025-11-24-claude-opus-4-5-is-in-public-preview-for-github-copilot</link>
+      <description>&lt;![CDATA[Claude Opus 4.5 is in public preview for GitHub Copilot]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-24-claude-opus-4-5-is-in-public-preview-for-github-copilot</guid>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copilot agent sessions from external apps are now available on GitHub Mobile for Android</title>
+      <link>https://github.blog/changelog/2025-11-25-copilot-agent-sessions-from-external-apps-are-now-available-on-github-mobile-for-android</link>
+      <description>&lt;![CDATA[Copilot agent sessions from external apps are now available on GitHub Mobile for Android]]&gt;</description>
+      <guid isPermaLink="false">https://github.blog/changelog/2025-11-25-copilot-agent-sessions-from-external-apps-are-now-available-on-github-mobile-for-android</guid>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
