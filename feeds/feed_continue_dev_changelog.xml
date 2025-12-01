@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Continue.dev Changelog</title>
+    <link>https://example.com/feeds/feed_continue_dev_changelog.xml</link>
+    <description>Stay up-to-date with new features, improvements, and bug fixes.</description>
+    <atom:link href="https://example.com/feeds/feed_continue_dev_changelog.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://continue.dev/img/logo.png</url>
+      <title>Continue.dev Changelog</title>
+      <link>https://example.com/feeds/feed_continue_dev_changelog.xml</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Dec 2025 09:49:22 +0000</lastBuildDate>
+    <item>
+      <title>Continue 1.0</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.0.1-vscode</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;p&gt;Continue 1.0 introduces the ability to create multiple custom assistants using the ecosystem of models, rules, MCP servers, and more from &lt;a href="https://hub.continue.dev"&gt;hub.continue.dev&lt;/a&gt;. Read more about the launch &lt;a href="https://blog.continue.dev/continue-1-0/"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.1-vscode</guid>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent mode, tabs, and local assistants</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.0.5-vscode</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h3&gt;✨ Introducing agent mode&lt;/h3&gt;
+&lt;p&gt;What used to be called "tool use" was promoted to the more prominent "agent mode" and given a lot more polish. When in agent mode, Continue can autonomously read and write files, run terminal commands, search the codebase or internet, and more.&lt;/p&gt;
+&lt;h3&gt;🔖 Tabs&lt;/h3&gt;
+&lt;p&gt;For those that enjoy many open browser tabs, this is for you. When tabs are enabled, starting a new chat will create a new tab, making it easier to access the previous.&lt;/p&gt;
+&lt;h3&gt;💻 Local assistants&lt;/h3&gt;
+&lt;p&gt;To speed up the feedback loop when building custom assistants, you can now define them locally in your workspace or the global ~/.continue folder. Read more &lt;a href="https://docs.continue.dev/reference#local-blocks"&gt;in the docs&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.5-vscode</guid>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The "notch", LLM logs, and improved tools</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.0.6-vscode</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h3&gt;⚙️ The "notch"&lt;/h3&gt;
+&lt;p&gt;The "notch" is an easy-access control panel for your custom assistant, right above the chat input box. Toggle rules, bookmark prompts, allow tools, and manage your blocks without leaving the current session.&lt;/p&gt;
+&lt;h3&gt;🔍 LLM logs&lt;/h3&gt;
+&lt;p&gt;Thanks to a great community contribution, Continue comes with a purpose-built UI for viewing the exact prompt and completion from your LLM, along with other important request metadata. Turn it on in VS Code settings -&amp;gt; Continue: Enable Console&lt;/p&gt;
+&lt;h3&gt;🛠️ Improved tools&lt;/h3&gt;
+&lt;p&gt;With a faster edit tool, ripgrep for search, and a new glob-based file search, agent mode will be able to navigate and modify your codebase much more efficiently&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.6-vscode</guid>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automatic rule creation and fast apply</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.0.8-vscode</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h3&gt;📝 Automatic rule creation&lt;/h3&gt;
+&lt;p&gt;Continue can now write &lt;a href="https://docs.continue.dev/customize/deep-dives/rules"&gt;rules&lt;/a&gt; for you! Just ask while in agent mode and it will automatically generate the file in &lt;code&gt;~/.continue/rules&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;⚡️ Fast apply&lt;/h3&gt;
+&lt;p&gt;Continue now supports fast apply via various models on the hub, including &lt;a href="https://hub.continue.dev/relace/instant-apply"&gt;Relace Instant Apply&lt;/a&gt; and &lt;a href="https://hub.continue.dev/morphllm/morph-v0"&gt;Morph v0&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.8-vscode</guid>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faster agent mode and autocomplete</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.0.9-vscode</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h3&gt;⚡️ Faster agent mode&lt;/h3&gt;
+&lt;p&gt;By avoiding full-file rewrites and using AST-based methods for deterministically applying code, agent mode can quickly make targeted edits to multiple-hundred-line files. See an example &lt;a href="https://x.com/continuedev/status/1920908604455911591"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;💨 mercury-coder-small&lt;/h3&gt;
+&lt;p&gt;Released by &lt;a href="https://www.inceptionlabs.ai/introducing-inception-api"&gt;Inception Labs&lt;/a&gt;, &lt;code&gt;mercury-coder-small&lt;/code&gt; is a diffusion-based language model trained for nearly instant autocomplete suggestions. It is now &lt;a href="https://hub.continue.dev/inceptionlabs/mercury-coder-small"&gt;available&lt;/a&gt; and ready for use in Continue&lt;/p&gt;
+&lt;p&gt;This release also includes many UI improvements to Edit mode and tool outputs&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.9-vscode</guid>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enhanced MCP support and streamlined editing</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.0.12-vscode</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h3&gt;✂️ Edit mode streamlined&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://docs.continue.dev/edit/how-to-use-it"&gt;Edit&lt;/a&gt; is no longer a separate selectable mode. Instead, the editing experience has been simplified into a single, streamlined edit state, making the UI more intuitive and reducing complexity.&lt;/p&gt;
+&lt;h3&gt;🛠️ Enhanced Model Context Protocol (MCP) support&lt;/h3&gt;
+&lt;p&gt;We added support for two new Model Context Protocol (MCP) transports: SSE and &lt;a href="https://modelcontextprotocol.io/docs/concepts/transports#streamable-http"&gt;Streamable HTTP&lt;/a&gt;, so that you can remotely host your MCP servers.&lt;/p&gt;
+&lt;p&gt;We also introduced support for &lt;a href="https://modelcontextprotocol.io/docs/concepts/resources#resource-templates"&gt;resource templates&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;⏹️ Apply streaming now cancelable&lt;/h3&gt;
+&lt;p&gt;You can now cancel the "Apply" streaming process at any time using the UI or keyboard shortcuts. This gives you more control over long-running or unwanted changes.&lt;/p&gt;
+&lt;h3&gt;🤖 Agent mode with Devstral&lt;/h3&gt;
+&lt;p&gt;Continue now supports tool calling with a wider range of models, including Devstral.&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.12-vscode</guid>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Continue Release Notes - Summer 2025</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.2.1-vscode</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h2&gt;Enhanced AI model support and error tracking&lt;/h2&gt;
+&lt;h3&gt;🤖 GPT-5 support with search/replace&lt;/h3&gt;
+&lt;p&gt;Continue now supports GPT-5 with advanced search and replace capabilities, enabling more powerful code transformations. By &lt;a href="https://github.com/Patrick-Erichsen"&gt;@Patrick-Erichsen&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7153"&gt;#7153&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Model Context Protocol (MCP) improvements&lt;/h2&gt;
+&lt;h3&gt;🔐 OAuth support for MCP servers&lt;/h3&gt;
+&lt;p&gt;MCP servers can now authenticate using OAuth, enabling secure connections to external services. By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6800"&gt;#6800&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;📦 Updated MCP resource naming&lt;/h3&gt;
+&lt;p&gt;Changed MCP context provider description to "MCP Resources" for better clarity. By &lt;a href="https://github.com/sestinj"&gt;@sestinj&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7152"&gt;#7152&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Next edit and agent mode enhancements&lt;/h2&gt;
+&lt;h3&gt;⛓️ Chain of next edits&lt;/h3&gt;
+&lt;p&gt;Added ability to chain multiple edit operations together for complex refactoring workflows. By &lt;a href="https://github.com/jpoly1219"&gt;@jpoly1219&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6843"&gt;#6843&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;📝 Expanded next edit protocol endpoints&lt;/h3&gt;
+&lt;p&gt;Added more endpoints to the next edit protocol for better integration. By &lt;a href="https://github.com/jpoly1219"&gt;@jpoly1219&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7110"&gt;#7110&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🎯 Enhanced prompt templates&lt;/h3&gt;
+&lt;p&gt;Added more prompt templates for common development tasks. By &lt;a href="https://github.com/jpoly1219"&gt;@jpoly1219&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7068"&gt;#7068&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Documentation overhaul&lt;/h2&gt;
+&lt;h3&gt;📚 Separate, indexable FAQ section&lt;/h3&gt;
+&lt;p&gt;Restructured documentation with a dedicated FAQ section for better discoverability and direct linking. Added comprehensive Ollama troubleshooting and local assistant guides. By &lt;a href="https://github.com/bdougie"&gt;@bdougie&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7139"&gt;#7139&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🚀 Quickstart examples&lt;/h3&gt;
+&lt;p&gt;Added practical examples for agent mode, chat, autocomplete, and edit features to help users get started faster. By &lt;a href="https://github.com/BekahHW"&gt;@BekahHW&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7184"&gt;#7184&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;📖 Model capabilities guide&lt;/h3&gt;
+&lt;p&gt;New comprehensive guide covering model capabilities and tool use documentation. By &lt;a href="https://github.com/bdougie"&gt;@bdougie&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6901"&gt;#6901&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;✨ Documentation polish&lt;/h3&gt;
+&lt;p&gt;Fixed broken links, updated image paths, and added smooth scrolling for improved navigation. By &lt;a href="https://github.com/bdougie"&gt;@bdougie&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6877"&gt;#6877&lt;/a&gt;, &lt;a href="https://github.com/continuedev/continue/pull/6878"&gt;#6878&lt;/a&gt;, &lt;a href="https://github.com/continuedev/continue/pull/6879"&gt;#6879&lt;/a&gt;, &lt;a href="https://github.com/continuedev/continue/pull/7028"&gt;#7028&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;UI and user experience improvements&lt;/h2&gt;
+&lt;h3&gt;🔍 Tool status indicators&lt;/h3&gt;
+&lt;p&gt;Added visual indicators showing when tools are running with search and replace operations. By &lt;a href="https://github.com/RomneyDa"&gt;@RomneyDa&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7112"&gt;#7112&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🖱️ Middle-click tab closing&lt;/h3&gt;
+&lt;p&gt;Tabs can now be closed using middle mouse button for faster navigation. By &lt;a href="https://github.com/ferenci84"&gt;@ferenci84&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6855"&gt;#6855&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🎨 Staging mode visual feedback&lt;/h3&gt;
+&lt;p&gt;Shows a yellow border when staging mode is active for clearer visual state indication. By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6819"&gt;#6819&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🚫 Text selection improvements&lt;/h3&gt;
+&lt;p&gt;Prevented accidental text selection when double-clicking tool policy buttons. By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7094"&gt;#7094&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Enterprise and organizational features&lt;/h2&gt;
+&lt;h3&gt;🏢 Organizational policy support&lt;/h3&gt;
+&lt;p&gt;Continue now respects organizational policies for enterprise deployments. By &lt;a href="https://github.com/RomneyDa"&gt;@RomneyDa&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7087"&gt;#7087&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🔑 Enterprise license key action&lt;/h3&gt;
+&lt;p&gt;Added "Enter Enterprise License Key" action for enterprise activation. By &lt;a href="https://github.com/exigow"&gt;@exigow&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7159"&gt;#7159&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Continuous AI workflow automation&lt;/h2&gt;
+&lt;h3&gt;🤖 Continuous AI review bot&lt;/h3&gt;
+&lt;p&gt;Implemented automated code review using AI for pull requests. By &lt;a href="https://github.com/tomasz-stefaniak"&gt;@tomasz-stefaniak&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7099"&gt;#7099&lt;/a&gt;, &lt;a href="https://github.com/continuedev/continue/pull/7106"&gt;#7106&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🏷️ Automated PR labeling&lt;/h3&gt;
+&lt;p&gt;GitHub workflow now automatically labels merged pull requests for better organization. By &lt;a href="https://github.com/bdougie"&gt;@bdougie&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6833"&gt;#6833&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;💬 Duplicate issue management&lt;/h3&gt;
+&lt;p&gt;Added automated commenting on duplicate issues to reduce noise. By &lt;a href="https://github.com/bdougie"&gt;@bdougie&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7066"&gt;#7066&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Bug fixes and improvements&lt;/h2&gt;
+&lt;h3&gt;🐛 Terminal workspace fix&lt;/h3&gt;
+&lt;p&gt;Fixed terminal usage when no workspace is open. By &lt;a href="https://github.com/chezsmithy"&gt;@chezsmithy&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6846"&gt;#6846&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🎨 CSS file indexing&lt;/h3&gt;
+&lt;p&gt;Resolved issue where CSS files weren't being properly indexed. By &lt;a href="https://github.com/su0as"&gt;@su0as&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7375"&gt;#7375&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🔧 VS Code apply error&lt;/h3&gt;
+&lt;p&gt;Fixed error when applying code changes in VS Code. By &lt;a href="https://github.com/QianKuang8"&gt;@QianKuang8&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7168"&gt;#7168&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🎯 Reranker score handling&lt;/h3&gt;
+&lt;p&gt;Fixed edge case when reranker returns invalid score arrays. By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6777"&gt;#6777&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🌑 Dark theme fallback&lt;/h3&gt;
+&lt;p&gt;Unsupported themes now properly fall back to dark-plus theme. By &lt;a href="https://github.com/jpoly1219"&gt;@jpoly1219&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/7187"&gt;#7187&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;📊 Anthropic token limit&lt;/h3&gt;
+&lt;p&gt;Increased default max_tokens for Anthropic API to 32k for better completions. By &lt;a href="https://github.com/sestinj"&gt;@sestinj&lt;/a&gt; in &lt;a href="https://github.com/continuedev/continue/pull/6722"&gt;#6722&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;New contributors&lt;/h2&gt;
+&lt;p&gt;Welcome to &lt;a href="https://github.com/44cort44"&gt;@44cort44&lt;/a&gt;, &lt;a href="https://github.com/QianKuang8"&gt;@QianKuang8&lt;/a&gt;, and all first-time contributors who helped make Continue better!&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.1-vscode</guid>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Continue CLI Enhancements</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.4.38</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h2&gt;🖼️ Enhanced image support in CLI&lt;/h2&gt;
+&lt;p&gt;The CLI now supports pasting images directly into conversations, making it easier to share visual context without leaving your terminal. Simply paste an image and Continue will process it alongside your text input.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7515"&gt;#7515&lt;/a&gt; - Show users how to paste images&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7503"&gt;#7503&lt;/a&gt; - Image paste functionality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;💬 Improved CLI messaging experience&lt;/h2&gt;
+&lt;p&gt;We've streamlined the CLI experience with automatic message title generation and a unified message format that matches other Continue extensions, providing a more consistent experience across all platforms.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7435"&gt;#7435&lt;/a&gt; - Generate message titles automatically&lt;/li&gt;
+&lt;li&gt;Message format now consistent with IDE extensions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;⚡ Streamlined CLI interactions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Press Enter to continue&lt;/strong&gt; - The CLI now offers a smoother flow with the ability to continue conversations by simply pressing Enter, reducing friction in longer sessions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7643"&gt;#7643&lt;/a&gt; - Press Enter to continue functionality (@RomneyDa)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🛠️ Improved edit tools&lt;/h2&gt;
+&lt;p&gt;Edit tool descriptions have been refined for clarity, and the CLI now reads real paths for better file handling accuracy.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7619"&gt;#7619&lt;/a&gt; - Description tweaks and real path reading (@RomneyDa)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🐚 Shell mode for CLI&lt;/h2&gt;
+&lt;p&gt;A new shell mode allows you to execute commands directly through Continue, streamlining your workflow when you need to run terminal commands as part of your development process.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7537"&gt;#7537&lt;/a&gt; - Shell mode implementation (@RomneyDa)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🏠 Safety improvements&lt;/h2&gt;
+&lt;p&gt;Continue now warns users when running the CLI in the home directory, preventing accidental modifications to critical system files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7536"&gt;#7536&lt;/a&gt; - Home directory warning (@RomneyDa)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🌿 Git integration&lt;/h2&gt;
+&lt;p&gt;The CLI now displays your current git branch when available, helping you stay oriented in your repository context.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7532"&gt;#7532&lt;/a&gt; - Git branch display (@RomneyDa)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;⏸️ Pause and resume functionality&lt;/h2&gt;
+&lt;p&gt;You can now pause and resume Continue sessions, giving you more control over long-running operations or when you need to temporarily step away.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7501"&gt;#7501&lt;/a&gt; - Pause and resume support (@sestinj)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;💡 CLI tips system&lt;/h2&gt;
+&lt;p&gt;A new tips system provides helpful hints and best practices as you use the CLI, helping you discover features and improve your workflow.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/pull/7500"&gt;#7500&lt;/a&gt; - Tips for CLI users (@sestinj)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;Released September  9th 2025 • Contributors: @sestinj, @RomneyDa&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.4.38</guid>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Continue v1.4.39: Smart Diffs &amp; Settings Refresh</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.4.39</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h2&gt;⭐ Highlights&lt;/h2&gt;
+&lt;h3&gt;🎨 UI/UX Overhaul&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Notch Cleanup &amp;amp; Settings Revamp&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7667"&gt;#7667&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✨ Polished interface with notch cleanup for modern displays&lt;/li&gt;
+&lt;li&gt;🎯 Streamlined settings with improved navigation and organization&lt;/li&gt;
+&lt;li&gt;🔧 Better accessibility and configuration management
+&lt;em&gt;by @Patrick-Erichsen&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Git-Aware CLI (&lt;a href="https://github.com/continuedev/continue/pull/7532"&gt;#7532&lt;/a&gt;, &lt;a href="https://github.com/continuedev/continue/pull/7620"&gt;#7620&lt;/a&gt;)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🌿 See your current git branch right in the CLI&lt;/li&gt;
+&lt;li&gt;✍️ Automatic commit signatures for better traceability
+&lt;em&gt;by @RomneyDa&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Enhanced Diagnostics (&lt;a href="https://github.com/continuedev/continue/pull/7621"&gt;#7621&lt;/a&gt;)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🔍 Comprehensive &lt;code&gt;/info&lt;/code&gt; screen with system diagnostics&lt;/li&gt;
+&lt;li&gt;🩺 Quick troubleshooting with detailed environment data
+&lt;em&gt;by @RomneyDa&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Smart Safety Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🏠 &lt;strong&gt;Home Directory Warning&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7536"&gt;#7536&lt;/a&gt;) - Prevents accidental operations in &lt;code&gt;~/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;⏸️ &lt;strong&gt;Pause &amp;amp; Resume&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7501"&gt;#7501&lt;/a&gt;) - Take control of long-running operations&lt;/li&gt;
+&lt;li&gt;🎯 &lt;strong&gt;Ctrl+C Behavior&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7378"&gt;#7378&lt;/a&gt;) - Once to clear, twice to exit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🛠️ Developer Experience&lt;/h2&gt;
+&lt;h3&gt;Code Intelligence&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🎨 &lt;strong&gt;Auto-formatting Detection&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7660"&gt;#7660&lt;/a&gt;) - Smart code style preservation&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Visual Diff UI&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7367"&gt;#7367&lt;/a&gt;) - Beautiful find-and-replace with diff preview&lt;/li&gt;
+&lt;li&gt;📝 &lt;strong&gt;Empty Diff Messages&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7698"&gt;#7698&lt;/a&gt;) - Clear feedback when no changes detected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Command Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🚀 &lt;strong&gt;&lt;code&gt;/init&lt;/code&gt; Command&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7669"&gt;#7669&lt;/a&gt;) - Quick project initialization&lt;/li&gt;
+&lt;li&gt;💬 &lt;strong&gt;&lt;code&gt;--prompt&lt;/code&gt; Flag&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7358"&gt;#7358&lt;/a&gt;) - Direct prompt specification&lt;/li&gt;
+&lt;li&gt;⚙️ &lt;strong&gt;&lt;code&gt;--config&lt;/code&gt; for Remote&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7592"&gt;#7592&lt;/a&gt;) - Remote configuration support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🏢 Enterprise Ready&lt;/h2&gt;
+&lt;h3&gt;Proxy &amp;amp; Integration Support&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🔐 &lt;strong&gt;On-Prem Proxy Support&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7466"&gt;#7466&lt;/a&gt;) - Enterprise proxy configurations&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;OpenAI Usage Tracking&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7462"&gt;#7462&lt;/a&gt;) - Token usage monitoring&lt;/li&gt;
+&lt;li&gt;🔗 &lt;strong&gt;Unified Fetch Tool&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7671"&gt;#7671&lt;/a&gt;) - Consistent content fetching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🎭 UI Polish&lt;/h2&gt;
+&lt;h3&gt;Visual Refinements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;💭 &lt;strong&gt;Thinking Tags Dimming&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7665"&gt;#7665&lt;/a&gt;) - Subtle processing indicators&lt;/li&gt;
+&lt;li&gt;📦 &lt;strong&gt;Compaction UI&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7695"&gt;#7695&lt;/a&gt;) - Smoother visual feedback&lt;/li&gt;
+&lt;li&gt;⏎ &lt;strong&gt;Press Enter to Continue&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7643"&gt;#7643&lt;/a&gt;) - Natural flow control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🧠 Intelligence Improvements&lt;/h2&gt;
+&lt;h3&gt;Advanced Planning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🎯 &lt;strong&gt;Plan Mode System Prompt&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7365"&gt;#7365&lt;/a&gt;) - Smarter planning capabilities&lt;/li&gt;
+&lt;li&gt;🚦 &lt;strong&gt;Allow/Block Lists&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7400"&gt;#7400&lt;/a&gt;) - Fine-grained assistant control&lt;/li&gt;
+&lt;li&gt;📁 &lt;strong&gt;Filepath Template Vars&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7681"&gt;#7681&lt;/a&gt;) - Enhanced template support
+&lt;em&gt;by @sestinj&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔧 Code Quality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;💡 &lt;strong&gt;CLI Tips&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7500"&gt;#7500&lt;/a&gt;) - Helpful guidance for new users
+&lt;em&gt;by @sestinj&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🙏 Thank You&lt;/h2&gt;
+&lt;p&gt;Big thanks to our amazing contributors who made this release possible:
+&lt;strong&gt;@Patrick-Erichsen&lt;/strong&gt;, &lt;strong&gt;@RomneyDa&lt;/strong&gt;, &lt;strong&gt;@tingwai&lt;/strong&gt;, &lt;strong&gt;@sestinj&lt;/strong&gt;, and &lt;strong&gt;@jpoly1219&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;💬 &lt;strong&gt;Join the conversation&lt;/strong&gt;: &lt;a href="https://discord.gg/continue"&gt;Discord&lt;/a&gt; | &lt;a href="https://github.com/continuedev/continue/discussions"&gt;GitHub Discussions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📖 &lt;strong&gt;Documentation&lt;/strong&gt;: &lt;a href="https://continue.dev/docs"&gt;continue.dev/docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;⭐ &lt;strong&gt;Star us on GitHub&lt;/strong&gt;: &lt;a href="https://github.com/continuedev/continue"&gt;github.com/continuedev/continue&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.4.39</guid>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JSON Configuration Support for MCP Servers</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.4.45</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h2&gt;📄 Standard MCP JSON format support&lt;/h2&gt;
+&lt;p&gt;Continue now supports loading MCP (Model Context Protocol) servers from JSON configuration files! This major enhancement brings support for two JSON config formats (single object and Claude-like format), automatic environment variable templating for secure key storage, and intelligent transport selection with automatic fallback mechanisms.&lt;/p&gt;
+&lt;p&gt;Configuration is now simplified with the &lt;code&gt;.continue/mcpServers/&lt;/code&gt; folder structure.&lt;/p&gt;
+&lt;h2&gt;📄 Standard MCP JSON format support&lt;/h2&gt;
+&lt;p&gt;Continue now supports loading MCP (Model Context Protocol) servers from JSON configuration files! This major enhancement brings support for two JSON config formats (single object and Claude-like format), automatic environment variable templating for secure key storage, and intelligent transport selection with automatic fallback mechanisms. &lt;a href="https://github.com/continuedev/continue/pull/7956"&gt;#7956&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Configuration is now simplified with the &lt;code&gt;.continue/mcpServers/&lt;/code&gt; folder structure.&lt;/p&gt;
+&lt;h2&gt;🔗 Enhanced remote agent connections&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;--id&lt;/code&gt; option now allows connecting to existing remote agents via tunnel, with improved remote command flow and error handling for a better distributed development experience. &lt;a href="https://github.com/continuedev/continue/pull/7999"&gt;#7999&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;📚 Documentation overhaul&lt;/h2&gt;
+&lt;h3&gt;Automated documentation agent guide&lt;/h3&gt;
+&lt;p&gt;New comprehensive guide for automating documentation updates using Continue CLI, with step-by-step instructions for creating documentation agents and best practices for maintaining up-to-date documentation. &lt;a href="https://github.com/continuedev/continue/pull/7988"&gt;#7988&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Settings documentation update&lt;/h3&gt;
+&lt;p&gt;Updated screenshots reflecting new VS Code interface, card-based layout documentation, corrected configuration references, and added notes about autocomplete model configuration. &lt;a href="https://github.com/continuedev/continue/pull/8013"&gt;#8013&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;🛠️ Under the hood&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactored MCP options and transport constructors&lt;/li&gt;
+&lt;li&gt;Improved configuration loading mechanisms&lt;/li&gt;
+&lt;li&gt;Enhanced telemetry for better product insights&lt;/li&gt;
+&lt;li&gt;JSON and YAML configuration interoperability&lt;/li&gt;
+&lt;li&gt;Improved MCP cookbook documentation with PostHog and GitHub examples&lt;/li&gt;
+&lt;li&gt;Secure key storage best practices&lt;/li&gt;
+&lt;li&gt;Environment variable templating support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;👥 Contributors&lt;/h2&gt;
+&lt;p&gt;Thanks to all contributors who made this release possible, with special recognition for tier feature implementations!&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;For the full changelog and detailed commit history, visit our &lt;a href="https://github.com/continuedev/continue/releases"&gt;GitHub releases&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.4.45</guid>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MCP Configuration &amp; Remote Development Update</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.4.47</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h1&gt;Release Notes&lt;/h1&gt;
+&lt;h3&gt;📄 JSON Configuration Support for MCP Servers&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;feat: support standard MCP JSON formats&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7956"&gt;#7956&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Continue now supports loading MCP (Model Context Protocol) servers from JSON configuration files! This major enhancement brings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for two JSON config formats (single object and Claude-like format)&lt;/li&gt;
+&lt;li&gt;Automatic environment variable templating for secure key storage&lt;/li&gt;
+&lt;li&gt;Intelligent transport selection with automatic fallback mechanisms&lt;/li&gt;
+&lt;li&gt;Simplified server configuration in &lt;code&gt;.continue/mcpServers/&lt;/code&gt; folder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔗 Remote Agent Connection Enhancement&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Add --id option to connect to existing remote agents via tunnel&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7999"&gt;#7999&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect to existing remote agents using an ID&lt;/li&gt;
+&lt;li&gt;Improved remote command flow and error handling&lt;/li&gt;
+&lt;li&gt;Enhanced CLI experience for distributed development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📊 CLI Telemetry Improvements&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;cn serve boolean&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8005"&gt;#8005&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added isServe flag for better CLI usage tracking&lt;/li&gt;
+&lt;li&gt;Improved PostHog telemetry for serve commands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📚 Documentation &amp;amp; Guides&lt;/h2&gt;
+&lt;h3&gt;🖋️ Automated Documentation Agent Guide&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Guide for Continue CLI for a Documentation writing agent&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/7988"&gt;#7988&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New comprehensive guide for automating documentation updates&lt;/li&gt;
+&lt;li&gt;Step-by-step instructions for creating documentation agents&lt;/li&gt;
+&lt;li&gt;Best practices for maintaining up-to-date documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⚙️ Settings Documentation Overhaul&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;docs: update settings.mdx with current features and screenshots&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8013"&gt;#8013&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated screenshots reflecting new VS Code interface&lt;/li&gt;
+&lt;li&gt;Card-based layout documentation&lt;/li&gt;
+&lt;li&gt;Corrected configuration references&lt;/li&gt;
+&lt;li&gt;Added notes about autocomplete model configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🛠️ Developer Experience&lt;/h2&gt;
+&lt;h3&gt;MCP Integration Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved MCP cookbook documentation with PostHog and GitHub examples (link)[https://docs.continue.dev/guides/overview]&lt;/li&gt;
+&lt;li&gt;Secure key storage best practices&lt;/li&gt;
+&lt;li&gt;Environment variable templating support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Remote Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhanced remote agent connection capabilities&lt;/li&gt;
+&lt;li&gt;Better error handling and user feedback&lt;/li&gt;
+&lt;li&gt;Streamlined tunnel connection process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔧 Under the Hood&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactored MCP options and transport constructors&lt;/li&gt;
+&lt;li&gt;Improved configuration loading mechanisms&lt;/li&gt;
+&lt;li&gt;Enhanced telemetry for better product insights&lt;/li&gt;
+&lt;li&gt;JSON and YAML configuration interoperability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📈 What's Next&lt;/h2&gt;
+&lt;p&gt;Continue to expect improvements in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP server integration capabilities&lt;/li&gt;
+&lt;li&gt;Remote development workflows&lt;/li&gt;
+&lt;li&gt;Documentation automation tools&lt;/li&gt;
+&lt;li&gt;Configuration management enhancements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;👥 Contributors&lt;/h2&gt;
+&lt;p&gt;Thanks to all contributors who made this release possible, with special recognition for tier feature implementations!&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;em&gt;For the full changelog and detailed commit history, visit our &lt;a href="https://github.com/continuedev/continue/releases"&gt;GitHub releases&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.4.47</guid>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enhanced file access beyond workspace, improved agent error handling, and CLI stability fixes</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.3.21-vscode</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h2&gt;🚀 Major Features&lt;/h2&gt;
+&lt;h3&gt;📁 File Access Beyond Workspace&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Enhanced file system access with permissions&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8298"&gt;#8298&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continue can now read files outside the IDE workspace with proper permission controls&lt;/li&gt;
+&lt;li&gt;Secure file access management for expanded development workflows&lt;/li&gt;
+&lt;li&gt;By &lt;a href="https://github.com/Patrick-Erichsen"&gt;@Patrick-Erichsen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;✨ Improvements&lt;/h2&gt;
+&lt;h3&gt;🔄 Agent Error Handling&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Improved error feedback in agent mode&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8301"&gt;#8301&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fetch errors are now properly returned to the agent for better debugging&lt;/li&gt;
+&lt;li&gt;Enhanced error visibility and troubleshooting capabilities&lt;/li&gt;
+&lt;li&gt;By &lt;a href="https://github.com/Patrick-Erichsen"&gt;@Patrick-Erichsen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🐛 Bug Fixes &amp;amp; Maintenance&lt;/h2&gt;
+&lt;h3&gt;CLI Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Agent Injected Blocks&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8361"&gt;#8361&lt;/a&gt;) - Fixed issue where agent injected blocks were being ignored in CLI - By &lt;a href="https://github.com/RomneyDa"&gt;@RomneyDa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message Text Testing&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8353"&gt;#8353&lt;/a&gt;) - Updated message text test for improved reliability - By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session Selector Preview&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8231"&gt;#8231&lt;/a&gt;) - Added preview panel to session selector (cn ls / /resume) - By &lt;a href="https://github.com/continue%5Bbot%5D"&gt;@continue[bot]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exit on Print Response&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8271"&gt;#8271&lt;/a&gt;) - Fixed CLI to properly exit after printing response when using -p flag - By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Loading Animation&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8285"&gt;#8285&lt;/a&gt;) - Added visual loading animation when updating version - By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Critical Hotfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic Thinking Blocks&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8329"&gt;#8329&lt;/a&gt;) - Strip thinking blocks without signature and empty text parts for Anthropic models - By &lt;a href="https://github.com/RomneyDa"&gt;@RomneyDa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Headless Config Fallback&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8356"&gt;#8356&lt;/a&gt;) - Allow default config fallback for headless CLI operations - By &lt;a href="https://github.com/RomneyDa"&gt;@RomneyDa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Model &amp;amp; Response Handling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Bracket Stripping&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8280"&gt;#8280&lt;/a&gt;) - Fixed bracket stripping in Gemini responses - By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Model Update&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8313"&gt;#8313&lt;/a&gt;) - Removed deprecated gemini-2.5-pro-exp-03-25 model - By &lt;a href="https://github.com/continue%5Bbot%5D"&gt;@continue[bot]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;UI/UX Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Enter Button Fix&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8255"&gt;#8255&lt;/a&gt;) - Fixed clicking on enter button not working after streaming - By &lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autocomplete Keyboard Shortcut&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/2571"&gt;#2571&lt;/a&gt;) - Added keyboard shortcut for toggling autocomplete in sidebar - By &lt;a href="https://github.com/minjeeki"&gt;@minjeeki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Punctuation Autocomplete&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/2595"&gt;#2595&lt;/a&gt;) - Preserve punctuation in autocomplete suggestions - By &lt;a href="https://github.com/tomasz-stefaniak"&gt;@tomasz-stefaniak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full Screen UI Improvements&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/2493"&gt;#2493&lt;/a&gt;) - Enhanced full screen interface experience - By &lt;a href="https://github.com/tomasz-stefaniak"&gt;@tomasz-stefaniak&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Terminal &amp;amp; Security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Terminal Security Check&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8226"&gt;#8226&lt;/a&gt;) - Fixed evaluatePolicy type definition for terminal security - By &lt;a href="https://github.com/continue%5Bbot%5D"&gt;@continue[bot]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Local Takeover &amp;amp; Background Processing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local Takeover MVP&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8270"&gt;#8270&lt;/a&gt;) - Built MVP for local takeover functionality - By &lt;a href="https://github.com/tomasz-stefaniak"&gt;@tomasz-stefaniak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Background/Async/Remote Mode&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8191"&gt;#8191&lt;/a&gt;) - Kickoff agents in /agents when using the extension - By &lt;a href="https://github.com/tomasz-stefaniak"&gt;@tomasz-stefaniak&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📚 Documentation Updates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blocks Terminology&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8311"&gt;#8311&lt;/a&gt;) - Updated documentation to reflect new blocks terminology - By &lt;a href="https://github.com/BekahHW"&gt;@BekahHW&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telemetry Documentation&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8295"&gt;#8295&lt;/a&gt;) - Updated telemetry documentation for clarity - By &lt;a href="https://github.com/RomneyDa"&gt;@RomneyDa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PR Linking Guidelines&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8316"&gt;#8316&lt;/a&gt;) - Added note about using keywords for linking PRs to issues - By &lt;a href="https://github.com/continue%5Bbot%5D"&gt;@continue[bot]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workspace Agent Configuration&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8155"&gt;#8155&lt;/a&gt;) - Added documentation for workspace level agent configuration - By &lt;a href="https://github.com/letanloc1998"&gt;@letanloc1998&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FastApply Model Recommendations&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8249"&gt;#8249&lt;/a&gt;, &lt;a href="https://github.com/continuedev/continue/pull/8253"&gt;#8253&lt;/a&gt;) - Added FastApply model to recommendations and linked to OpenRouter models - By &lt;a href="https://github.com/Olyray"&gt;@Olyray&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🧪 Testing &amp;amp; Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core Unit Test Prompt&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8317"&gt;#8317&lt;/a&gt;) - Fixed formatting of instructions in core unit test prompt - By &lt;a href="https://github.com/sestinj"&gt;@sestinj&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Oneper Utility Script&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/6783"&gt;#6783&lt;/a&gt;) - Created utility script for development - By &lt;a href="https://github.com/Patrick-Erichsen"&gt;@Patrick-Erichsen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved Telemetry&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/2564"&gt;#2564&lt;/a&gt;) - Enhanced telemetry system for better insights - By &lt;a href="https://github.com/tomasz-stefaniak"&gt;@tomasz-stefaniak&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🏢 JetBrains Support&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Per-IDE Tutorial Files&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/2665"&gt;#2665&lt;/a&gt;) - Created separate tutorial files for each JetBrains IDE - By &lt;a href="https://github.com/Patrick-Erichsen"&gt;@Patrick-Erichsen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contributing Documentation&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/2646"&gt;#2646&lt;/a&gt;) - Updated JetBrains contributing docs - By &lt;a href="https://github.com/Patrick-Erichsen"&gt;@Patrick-Erichsen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release Notes Link&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/2645"&gt;#2645&lt;/a&gt;) - Added release notes link to JetBrains plugin - By &lt;a href="https://github.com/Patrick-Erichsen"&gt;@Patrick-Erichsen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;👥 Contributors&lt;/h2&gt;
+&lt;p&gt;Thanks to all contributors who made this release possible:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Patrick-Erichsen"&gt;@Patrick-Erichsen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/RomneyDa"&gt;@RomneyDa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/uinstinct"&gt;@uinstinct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tomasz-stefaniak"&gt;@tomasz-stefaniak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sestinj"&gt;@sestinj&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/BekahHW"&gt;@BekahHW&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/minjeeki"&gt;@minjeeki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/letanloc1998"&gt;@letanloc1998&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Olyray"&gt;@Olyray&lt;/a&gt; (First contribution! 🎉)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/continue%5Bbot%5D"&gt;@continue[bot]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;💬 Join the Conversation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discord.gg/continue"&gt;Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue/discussions"&gt;GitHub Discussions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.continue.dev"&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/continuedev/continue"&gt;Star us on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.21-vscode</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Instant Edits, GPT-5 Codex Support &amp; Grok Code Fast 1</title>
+      <link>https://github.com/continuedev/continue/releases/tag/v1.0.38-jetbrains</link>
+      <description>&lt;![CDATA[&lt;div class="prose max-w-none"&gt;&lt;h3&gt;OpenAI Responses API Support&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Full GPT-5 Codex and advanced model integration&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8417"&gt;#8417&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Implemented comprehensive Responses API support in OpenAI adapters, bringing streaming and non-streaming capabilities for GPT-5 Codex and other cutting-edge models. This major infrastructure update provides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Robust handling of OpenAI's Response objects with ternary logic for flexible streaming modes&lt;/li&gt;
+&lt;li&gt;Seamless integration with existing OpenAI adapters&lt;/li&gt;
+&lt;li&gt;Foundation for advanced model capabilities in Continue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Instant Edit for Find/Replace Tools&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;No more waiting for streaming diffs&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8473"&gt;#8473&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Replaced streaming diff approaches with instant apply for find/replace operations in both VS Code and JetBrains IDEs. Your edits now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply immediately with synchronous diff computation&lt;/li&gt;
+&lt;li&gt;Automatically scroll to changes for better visibility&lt;/li&gt;
+&lt;li&gt;Deliver a significantly snappier editing experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Grok Code Fast 1 Integration&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;xAI's speedy agentic coding model joins Continue&lt;/strong&gt; (&lt;a href="https://github.com/continuedev/continue/pull/8475"&gt;#8475&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Added xAI's Grok Code Fast 1 as a recommended agent model, bringing lightning-fast agentic coding to Continue. This integration features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full tool support with advanced thinking capabilities&lt;/li&gt;
+&lt;li&gt;Enhanced agent-mode UI with improved tooltips&lt;/li&gt;
+&lt;li&gt;Clearer Plan/Agent mode labels for better workflow understanding&lt;/li&gt;
+&lt;li&gt;Optimized for rapid iteration and responsive coding workflows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the full changelog and detailed commit history, visit our &lt;a href="https://github.com/continuedev/continue/releases"&gt;GitHub releases&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.38-jetbrains</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
