@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Cursor Changelog</title>
+    <link>https://cursor.com/feeds/feed_cursor_changelog.xml</link>
+    <description>Stay up-to-date with new features, improvements, and bug fixes.</description>
+    <atom:link href="https://cursor.com/feeds/feed_cursor_changelog.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://cursor.com/icon.png</url>
+      <title>Cursor Changelog</title>
+      <link>https://cursor.com/feeds/feed_cursor_changelog.xml</link>
+    </image>
+    <language>ja</language>
+    <lastBuildDate>Mon, 01 Dec 2025 11:19:45 +0000</lastBuildDate>
+    <item>
+      <title>Linear 連携、Agent のターミナル改善、OS 通知</title>
+      <link>https://cursor.com/changelog/1-5</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id="linear"&gt;&lt;a class="hover:opacity-90" href="#linear"&gt;Linear でエージェントを実行&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Linear から直接 Background Agents を起動できるようになりました。Issue を離れずに Cursor にタスクを委任できます。詳細は&lt;a href="https://cursor.com/blog/linear"&gt;こちらのブログ記事&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h3 id="agent"&gt;&lt;a class="hover:opacity-90" href="#agent"&gt;Agent ターミナルでのレビュー体験を改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;ターミナルは左側に開くようになり、ブロック中であることを強調するための明確な背景とボーダーアニメーションを備えました。Reject を行うと入力欄へ自動でフォーカスされ、すぐに応答できます。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h3 id="agent-os"&gt;&lt;a class="hover:opacity-90" href="#agent-os"&gt;Agent からの OS 通知&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;エージェントの実行が完了したときや、たとえば許可リストにないコマンドの承認が必要なときに、ネイティブの OS 通知を受け取れます。&lt;strong&gt;Settings&lt;/strong&gt; から有効化してください。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="Agent completed system notification." class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="mcp-elicitation"&gt;&lt;a class="hover:opacity-90" href="#mcp-elicitation"&gt;MCP elicitation に対応&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cursor は MCP elicitation をサポートしました。これは MCP 仕様の新機能で、サーバーがユーザーの嗜好や設定の選択など、構造化された入力をユーザーに要求できるようにするものです。要求は JSON スキーマで定義され、サーバーは検証済みの応答を受け取りつつ、ユーザーは共有内容のコントロールを維持できます。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/1-5</guid>
+      <pubDate>Thu, 21 Aug 2025 19:54:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>スラッシュコマンド、要約機能、改良されたAgentターミナル</title>
+      <link>https://cursor.com/changelog/1-6</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;カスタムスラッシュコマンド&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;再利用可能なプロンプトを作成し、チームと素早く共有できるようになりました。&lt;a href="https://cursor.com/docs/agent/chat/commands" rel="noopener noreferrer" target="_blank"&gt;Commands&lt;/a&gt;は &lt;code&gt;.cursor/commands/[command].md&lt;/code&gt; に保存されます。Agent の入力欄で &lt;code&gt;/&lt;/code&gt; を入力し、ドロップダウンからコマンドを選択して実行します。&lt;/p&gt;
+&lt;p&gt;私たちはこれらを、リンターの実行、コンパイルエラーの修正、詳細な説明と conventional commits を備えた PR の作成に活用しています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/d9bf919ffcfc6f56f4777c2a92010432dbe9804d.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;要約トリガー&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;コンテキストウィンドウの上限に達すると、Cursor が長い会話を自動で要約します。&lt;code&gt;/summarize&lt;/code&gt; スラッシュコマンドで、必要に応じてコンテキストを手動要約できるようになりました。新しいチャットを作成したくないが、コンテキストウィンドウの空きを確保したい場合に便利です。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/22c3557543d6f346d0ac104ed4b01fbc75fcfae7.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="mcp-resources"&gt;&lt;a class="hover:opacity-90" href="#mcp-resources"&gt;MCP Resources のサポート&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;MCP Resources のサポートを追加しました。&lt;a href="https://modelcontextprotocol.io/specification/2025-06-18/server/resources" rel="noopener noreferrer" target="_blank"&gt;Resources&lt;/a&gt;は、ファイル、データベーススキーマ、アプリケーション固有情報など、言語モデルにコンテキストを提供するデータをサーバー間で共有できるようにします。&lt;/p&gt;
+&lt;p&gt;さらに、MCP において補間変数がサポートされました。これにより、MCP サーバーの設定を定義する際、文字列内で環境変数を利用できます。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/cc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="agent"&gt;&lt;a class="hover:opacity-90" href="#agent"&gt;Agent 向けターミナルの改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Agent がシェルコマンド実行のためにターミナルを作成するとき、環境の安定性と信頼性を大幅に向上しました。&lt;/p&gt;
+&lt;p&gt;これにより、ターミナルコマンドがハングしたり、タスク完了時に正しく終了しない既知の問題が解消され、SSH 体験も改善されました。&lt;/p&gt;
+&lt;p&gt;また、ターミナルの UI を磨き上げ、起動を高速化し、シェルコマンドがユーザー承認を必要とする場合の OS 通知を追加しました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/6d6351af5c46fa85244a285cfca9a0460df2e8d9.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/1-6</guid>
+      <pubDate>Fri, 12 Sep 2025 01:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ブラウザコントロール、プランモード、フック</title>
+      <link>https://cursor.com/changelog/1-7</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;ブラウザ操作&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Agent はスクリーンショットの取得、UI の改善、クライアント側の問題のデバッグが可能です。ブラウザ機能の&lt;a href="https://cursor.com/docs/agent/browser#browser"&gt;詳細はこちら&lt;/a&gt;。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/ee08885e7131d4ed4183068a1e39574154880a8b.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;計画モード&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cursor は複雑なタスクに着手する前に、詳細なプランを作成できるようになりました。これにより、エージェントは大幅に長時間にわたって稼働できます。&lt;br/&gt;&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="agent"&gt;&lt;a class="hover:opacity-90" href="#agent"&gt;Agent 向けオートコンプリート&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;プロンプト作成中は、直近の変更に基づくオートコンプリート候補が表示されます。Tab キーで候補を確定し、ファイルをコンテキストに添付できます。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/c59180ab6509a4c8cc6fe61d3cf7c36dd7ad4148.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;フック（ベータ版）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;カスタムスクリプトで Agent のループを観察・制御し、拡張できるようになりました。フックを使うと、実行時に Agent の挙動をカスタマイズし、影響を与えられます。&lt;/p&gt;
+&lt;p&gt;Hooks を使って、エージェントの利用状況を監査し、コマンドをブロックしたり、コンテキストからシークレットを編集（マスキング）できます。現在はベータ版のため、ぜひフィードバックをお寄せください。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/6bfb19e08fdc2162242aa94642df48cff1d7e680.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;チームルール&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;チームはダッシュボードからグローバルルールを定義・共有できるようになり、すべてのプロジェクトに適用されます。また、&lt;a href="https://cursor.com/bugbot"&gt;Bugbot&lt;/a&gt;向けのチームルールも提供したため、リポジトリ間で挙動が一貫します。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;ディープリンクでプロンプトを共有（ベータ版）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;再利用可能なプロンプト向けに、共有用ディープリンクを生成します。ドキュメントのセットアップ手順、チームリソース、ワークフロー共有に便利です。作成方法は&lt;a href="https://cursor.com/docs/integrations/deeplinks"&gt;ドキュメント&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/8df68e08d1ec72cb5c16b9e29580c1e8be1a10dd.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;サンドボックス化ターミナル&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;コマンドは、セキュアなサンドボックス環境で実行されるようになりました。allowlist モードでは、allowlist にないコマンドは自動的にサンドボックスで実行され、ワークスペースへの読み書きは可能ですが、インターネットにはアクセスできません。&lt;/p&gt;
+&lt;p&gt;コマンドが失敗し、原因がサンドボックスにあると判定された場合は、サンドボックス外での再実行を促すメッセージが表示されます。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/988f922156ea31ea5c4defb3f9d4a049e359b252.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="bugbot-pr"&gt;&lt;a class="hover:opacity-90" href="#bugbot-pr"&gt;Bugbot による PR の要約&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;GitHubでPRを作成すると、Bugbotが変更点の要約を生成します。要約は変更をプッシュするたびに更新され、常に正確な状態が保たれます。これはCursorのダッシュボード内のBugbotタブで無効化できます。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/ebe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;メニューバーからエージェントを監視&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;メニューバーから Cursor Agents の状態をすばやく確認できます。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/eb50983a08b4878f422c8fb6166e04453dd5a58f.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="agent"&gt;&lt;a class="hover:opacity-90" href="#agent"&gt;Agent の画像ファイルサポート&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Agentがワークスペース内の画像ファイルを直接読み取り、コンテキストに取り込めるようになりました。以前は貼り付けた画像のみ対応していました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/0d33834548eb1bbe7aae74f2e749b7d2b9d6d45d.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/1-7</guid>
+      <pubDate>Mon, 29 Sep 2025 05:08:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>新しいコード生成モデルとエージェントインターフェース</title>
+      <link>https://cursor.com/changelog/2-0</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;マルチエージェント&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;新しいエディタでエージェントを管理。サイドバーでエージェントとプランを一覧・操作できます。&lt;/p&gt;
+&lt;p&gt;1つのプロンプトで最大8つのエージェントを並列実行できます。ファイル競合を防ぐために、git worktree またはリモートマシンを使用します。各エージェントは、コードベースの独立したコピー上で個別に動作します。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/cc6e8a2fca02ef08eb9ca502e7f0b353fbc2e15f.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="composer"&gt;&lt;a class="hover:opacity-90" href="#composer"&gt;Composer&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;初のエージェント型コーディングモデルをご紹介します。Composer は、同等の知性を持つモデルと比べて4倍速い最先端モデルです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/15ea68849329eaf054be1b8fc7010b6f87696960.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="ga"&gt;&lt;a class="hover:opacity-90" href="#ga"&gt;ブラウザー（GA）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;1.7でベータ提供を開始したAgent用のブラウザーは、現在GAになりました。2.0では、企業のチームがBrowserを活用できるよう、追加のサポートを提供しています。&lt;/p&gt;
+&lt;p&gt;ブラウザをエディタ内に埋め込めるようになり、要素の選択や DOM 情報をエージェントへ渡す強力な新ツールが利用可能になりました。&lt;a href="https://cursor.com/docs/agent/browser"&gt;ブラウザ&lt;/a&gt;の使い方の詳細を見る。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/0e795515f844148c8902c79ac41241b6d53b3e86.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;コードレビューの強化&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;個々のファイルを行き来することなく、Agentによる複数ファイルにまたがるすべての変更を、これまでより簡単に確認できるようになりました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/a6d569bdda67f7c349f8d343614406ca796769d9.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="ga"&gt;&lt;a class="hover:opacity-90" href="#ga"&gt;サンドボックス化ターミナル（GA）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;1.7 のベータで導入されたサンドボックス化ターミナルは、macOS で一般提供（GA）になりました。2.0 では、macOS でエージェントのコマンドを既定で安全なサンドボックス内で実行します。&lt;/p&gt;
+&lt;p&gt;（許可リストに未登録の）シェルコマンドは、自動的にサンドボックスで実行され、ワークスペースへの読み書きは可能ですが、インターネットにはアクセスできません。詳しくは&lt;a href="https://cursor.com/docs/agent/terminal#sandboxing-beta"&gt;サンドボックス化&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/988f922156ea31ea5c4defb3f9d4a049e359b252.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;チーム向けコマンド&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cursor ダッシュボードで、チーム用のカスタムコマンドとルールを定義します。&lt;/p&gt;
+&lt;p&gt;このコンテキストは、エディタにファイルをローカル保存する必要なく、チームの全メンバーに自動的に適用され、チーム管理者によって一元的に管理されます。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;ボイスモード&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;内蔵の音声認識（音声→テキスト変換）を使って、声でエージェントを操作できます。設定でカスタムの送信キーワードを指定し、そのキーワードでエージェントの実行をトリガーすることもできます。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/f1ccc6dc28be339c8c3697af9be9779f8d60e5b2.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;パフォーマンス改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cursor は、定義への移動、ホバー時のツールチップ、診断などの言語固有の機能に Language Server Protocol（LSP）を利用しています。&lt;/p&gt;
+&lt;p&gt;すべての言語で、LSP の読み込みと利用のパフォーマンスを大幅に向上しました。特に、エージェントの操作時や差分の表示時に顕著です。&lt;/p&gt;
+&lt;p&gt;利用可能なRAMに応じて動的に設定されるより高いメモリ上限により、大規模プロジェクトでもPythonおよびTypeScriptのLSPがデフォルトで高速化されました。&lt;/p&gt;
+&lt;p&gt;複数のメモリリークを修正し、全体的なメモリ使用効率を向上させました。&lt;/p&gt;
+&lt;h3 id="plan"&gt;&lt;a class="hover:opacity-90" href="#plan"&gt;バックグラウンドでのPlanモード&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;あるモデルで計画を作成し、別のモデルでその計画を実行できます。計画の実行は前面でもバックグラウンドでも選べ、並列エージェントで同時に計画して複数のプランをレビュー用に用意することも可能です。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/c6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;チームで共有できるコマンド&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;カスタムルール、コマンド、プロンプトをチーム全体で共有できます。Cursor Docs からディープリンクを作成できます。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="ui"&gt;&lt;a class="hover:opacity-90" href="#ui"&gt;プロンプトUIの改良&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;ファイルとディレクトリは、いま「ピル」スタイルのチップとしてインライン表示されます。タグ付きコンテキストを含むプロンプトのコピー＆ペーストも改良しました。&lt;/p&gt;
+&lt;p&gt;コンテキストメニューから、@Definitions、@Web、@Link、@Recent Changes、@Linter Errors などの明示的な項目を多数削除しました。Agent は、プロンプト入力で手動でコンテキストを添付しなくても、自動的に必要なコンテキストを収集できるようになりました。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="media-light block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;picture class="media-dark block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="agent-harness"&gt;&lt;a class="hover:opacity-90" href="#agent-harness"&gt;Agent Harness の強化&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;すべてのモデルで Agent を扱うための基盤となるハーネスを大幅に強化しました。特に GPT-5 Codex で、品質が顕著に向上しています。&lt;/p&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;クラウドエージェント&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;クラウドエージェントは、99.9% の可用性、即時起動、そして近日公開予定の新しいUIを提供します。エディターからエージェントをクラウドに送信する操作体験も改善しました。&lt;/p&gt;
+&lt;h3 id="enterprise-cursor"&gt;&lt;a class="hover:opacity-90" href="#enterprise-cursor"&gt;Enterprise 向け Cursor&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;サンドボックス化ターミナル：管理者向けコントロール&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;企業プランでは、チーム全体に対して&lt;a href="https://cursor.com/docs/agent/terminal#enterprise-controls"&gt;Sandboxed Terminal の標準設定&lt;/a&gt;を適用・強制できるようになりました。チーム単位で、サンドボックスの利用可否、Git アクセス、ネットワークアクセスを設定できます。&lt;/p&gt;
+&lt;h4 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;フック：クラウド配布&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;企業チームは、&lt;a href="https://cursor.com/docs/agent/hooks"&gt;フック&lt;/a&gt;を&lt;a href="https://cursor.com/dashboard?tab=team-content&amp;amp;section=hooks"&gt;Webダッシュボード&lt;/a&gt;から直接配布できるようになりました。管理者は新しいフックを追加し、下書きを保存し、どのフックをどのオペレーティングシステムに適用するかを選択できます。&lt;/p&gt;
+&lt;h4 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;監査ログ&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Cursor で、&lt;a href="https://cursor.com/docs/account/teams/dashboard#audit-log"&gt;管理者イベントのタイムスタンプ付きログ&lt;/a&gt;を表示できます。ユーザーアクセス、設定変更、Team Rule の編集、メンバー管理イベントが含まれます。&lt;/p&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/2-0</guid>
+      <pubDate>Wed, 29 Oct 2025 05:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>プランモードの強化、エディタ内AIコードレビュー、インスタントGrep</title>
+      <link>https://cursor.com/changelog/2-1</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;プランモードの改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;プランを作成する際、Cursor はプランの質を高めるために補足的な確認質問を行います。質問に簡単に回答できるインタラクティブな UI も表示されるようになりました。&lt;/p&gt;
+&lt;p&gt;生成されたプラン内を検索するには、⌘+F で検索できます。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h3 id="ai"&gt;&lt;a class="hover:opacity-90" href="#ai"&gt;AI コードレビュー&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;AI コードレビューを使って、Cursor 上でバグの検出と修正まで直接行えるようになりました。変更内容を解析し、問題点を検出してサイドパネルに表示します。&lt;/p&gt;
+&lt;p&gt;これは、GitHub（Enterprise Server を含む）や GitLab などのソースコード管理プロバイダ上で動作する Bugbot に加わる機能です。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h3 id="instant-grep"&gt;&lt;a class="hover:opacity-90" href="#instant-grep"&gt;Instant Grep（ベータ）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;エージェントが実行するすべての grep コマンドが即時に実行されるようになりました。&lt;/p&gt;
+&lt;p&gt;Instant Grep は Cursor のすべてのモデルでサポートされています。サイドバーからコードベースを手動検索する際にも利用され、正規表現や単語境界でのマッチングにも対応します。&lt;/p&gt;
+&lt;p&gt;この改善は、今後 1 週間かけてバージョン 2.1 のユーザーに段階的にロールアウトされます。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/2-1</guid>
+      <pubDate>Fri, 21 Nov 2025 19:37:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linear 連携、Agent のターミナル改善、OS 通知</title>
+      <link>https://cursor.com/changelog/1-5</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id="linear"&gt;&lt;a class="hover:opacity-90" href="#linear"&gt;Linear でエージェントを実行&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Linear から直接 Background Agents を起動できるようになりました。Issue を離れずに Cursor にタスクを委任できます。詳細は&lt;a href="https://cursor.com/blog/linear"&gt;こちらのブログ記事&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h3 id="agent"&gt;&lt;a class="hover:opacity-90" href="#agent"&gt;Agent ターミナルでのレビュー体験を改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;ターミナルは左側に開くようになり、ブロック中であることを強調するための明確な背景とボーダーアニメーションを備えました。Reject を行うと入力欄へ自動でフォーカスされ、すぐに応答できます。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h3 id="agent-os"&gt;&lt;a class="hover:opacity-90" href="#agent-os"&gt;Agent からの OS 通知&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;エージェントの実行が完了したときや、たとえば許可リストにないコマンドの承認が必要なときに、ネイティブの OS 通知を受け取れます。&lt;strong&gt;Settings&lt;/strong&gt; から有効化してください。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="Agent completed system notification." class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/431f7ffb3b0a444423ff9cf64ec51dc9cad94271-1128x634.webp?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="mcp-elicitation"&gt;&lt;a class="hover:opacity-90" href="#mcp-elicitation"&gt;MCP elicitation に対応&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cursor は MCP elicitation をサポートしました。これは MCP 仕様の新機能で、サーバーがユーザーの嗜好や設定の選択など、構造化された入力をユーザーに要求できるようにするものです。要求は JSON スキーマで定義され、サーバーは検証済みの応答を受け取りつつ、ユーザーは共有内容のコントロールを維持できます。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/1-5</guid>
+      <pubDate>Thu, 21 Aug 2025 19:54:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>スラッシュコマンド、要約機能、改良されたAgentターミナル</title>
+      <link>https://cursor.com/changelog/1-6</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;カスタムスラッシュコマンド&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;再利用可能なプロンプトを作成し、チームと素早く共有できるようになりました。&lt;a href="https://cursor.com/docs/agent/chat/commands" rel="noopener noreferrer" target="_blank"&gt;Commands&lt;/a&gt;は &lt;code&gt;.cursor/commands/[command].md&lt;/code&gt; に保存されます。Agent の入力欄で &lt;code&gt;/&lt;/code&gt; を入力し、ドロップダウンからコマンドを選択して実行します。&lt;/p&gt;
+&lt;p&gt;私たちはこれらを、リンターの実行、コンパイルエラーの修正、詳細な説明と conventional commits を備えた PR の作成に活用しています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/d9bf919ffcfc6f56f4777c2a92010432dbe9804d.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;要約トリガー&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;コンテキストウィンドウの上限に達すると、Cursor が長い会話を自動で要約します。&lt;code&gt;/summarize&lt;/code&gt; スラッシュコマンドで、必要に応じてコンテキストを手動要約できるようになりました。新しいチャットを作成したくないが、コンテキストウィンドウの空きを確保したい場合に便利です。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/22c3557543d6f346d0ac104ed4b01fbc75fcfae7.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="mcp-resources"&gt;&lt;a class="hover:opacity-90" href="#mcp-resources"&gt;MCP Resources のサポート&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;MCP Resources のサポートを追加しました。&lt;a href="https://modelcontextprotocol.io/specification/2025-06-18/server/resources" rel="noopener noreferrer" target="_blank"&gt;Resources&lt;/a&gt;は、ファイル、データベーススキーマ、アプリケーション固有情報など、言語モデルにコンテキストを提供するデータをサーバー間で共有できるようにします。&lt;/p&gt;
+&lt;p&gt;さらに、MCP において補間変数がサポートされました。これにより、MCP サーバーの設定を定義する際、文字列内で環境変数を利用できます。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fcc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/cc784b2927d5a140804aa1a1184e3bc3c0fa87ed-1118x368.webp?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="agent"&gt;&lt;a class="hover:opacity-90" href="#agent"&gt;Agent 向けターミナルの改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Agent がシェルコマンド実行のためにターミナルを作成するとき、環境の安定性と信頼性を大幅に向上しました。&lt;/p&gt;
+&lt;p&gt;これにより、ターミナルコマンドがハングしたり、タスク完了時に正しく終了しない既知の問題が解消され、SSH 体験も改善されました。&lt;/p&gt;
+&lt;p&gt;また、ターミナルの UI を磨き上げ、起動を高速化し、シェルコマンドがユーザー承認を必要とする場合の OS 通知を追加しました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/6d6351af5c46fa85244a285cfca9a0460df2e8d9.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/1-6</guid>
+      <pubDate>Fri, 12 Sep 2025 01:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ブラウザコントロール、プランモード、フック</title>
+      <link>https://cursor.com/changelog/1-7</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;ブラウザ操作&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Agent はスクリーンショットの取得、UI の改善、クライアント側の問題のデバッグが可能です。ブラウザ機能の&lt;a href="https://cursor.com/docs/agent/browser#browser"&gt;詳細はこちら&lt;/a&gt;。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/ee08885e7131d4ed4183068a1e39574154880a8b.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;計画モード&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cursor は複雑なタスクに着手する前に、詳細なプランを作成できるようになりました。これにより、エージェントは大幅に長時間にわたって稼働できます。&lt;br/&gt;&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/0217b852d3d8a08b1505e0f9489ad731b24b8786-1740x1122.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="agent"&gt;&lt;a class="hover:opacity-90" href="#agent"&gt;Agent 向けオートコンプリート&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;プロンプト作成中は、直近の変更に基づくオートコンプリート候補が表示されます。Tab キーで候補を確定し、ファイルをコンテキストに添付できます。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/c59180ab6509a4c8cc6fe61d3cf7c36dd7ad4148.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;フック（ベータ版）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;カスタムスクリプトで Agent のループを観察・制御し、拡張できるようになりました。フックを使うと、実行時に Agent の挙動をカスタマイズし、影響を与えられます。&lt;/p&gt;
+&lt;p&gt;Hooks を使って、エージェントの利用状況を監査し、コマンドをブロックしたり、コンテキストからシークレットを編集（マスキング）できます。現在はベータ版のため、ぜひフィードバックをお寄せください。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/6bfb19e08fdc2162242aa94642df48cff1d7e680.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;チームルール&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;チームはダッシュボードからグローバルルールを定義・共有できるようになり、すべてのプロジェクトに適用されます。また、&lt;a href="https://cursor.com/bugbot"&gt;Bugbot&lt;/a&gt;向けのチームルールも提供したため、リポジトリ間で挙動が一貫します。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/12fedd8c2375c64f392d537a0b868402369f41ea-2892x2286.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;ディープリンクでプロンプトを共有（ベータ版）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;再利用可能なプロンプト向けに、共有用ディープリンクを生成します。ドキュメントのセットアップ手順、チームリソース、ワークフロー共有に便利です。作成方法は&lt;a href="https://cursor.com/docs/integrations/deeplinks"&gt;ドキュメント&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/8df68e08d1ec72cb5c16b9e29580c1e8be1a10dd.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;サンドボックス化ターミナル&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;コマンドは、セキュアなサンドボックス環境で実行されるようになりました。allowlist モードでは、allowlist にないコマンドは自動的にサンドボックスで実行され、ワークスペースへの読み書きは可能ですが、インターネットにはアクセスできません。&lt;/p&gt;
+&lt;p&gt;コマンドが失敗し、原因がサンドボックスにあると判定された場合は、サンドボックス外での再実行を促すメッセージが表示されます。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/988f922156ea31ea5c4defb3f9d4a049e359b252.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="bugbot-pr"&gt;&lt;a class="hover:opacity-90" href="#bugbot-pr"&gt;Bugbot による PR の要約&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;GitHubでPRを作成すると、Bugbotが変更点の要約を生成します。要約は変更をプッシュするたびに更新され、常に正確な状態が保たれます。これはCursorのダッシュボード内のBugbotタブで無効化できます。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Febe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/ebe9260ae094dc92a40ba0025b5e34bcd59f5bf6-1856x1195.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;メニューバーからエージェントを監視&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;メニューバーから Cursor Agents の状態をすばやく確認できます。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/eb50983a08b4878f422c8fb6166e04453dd5a58f.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="agent"&gt;&lt;a class="hover:opacity-90" href="#agent"&gt;Agent の画像ファイルサポート&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Agentがワークスペース内の画像ファイルを直接読み取り、コンテキストに取り込めるようになりました。以前は貼り付けた画像のみ対応していました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/0d33834548eb1bbe7aae74f2e749b7d2b9d6d45d.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/1-7</guid>
+      <pubDate>Mon, 29 Sep 2025 05:08:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>新しいコード生成モデルとエージェントインターフェース</title>
+      <link>https://cursor.com/changelog/2-0</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;マルチエージェント&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;新しいエディタでエージェントを管理。サイドバーでエージェントとプランを一覧・操作できます。&lt;/p&gt;
+&lt;p&gt;1つのプロンプトで最大8つのエージェントを並列実行できます。ファイル競合を防ぐために、git worktree またはリモートマシンを使用します。各エージェントは、コードベースの独立したコピー上で個別に動作します。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/cc6e8a2fca02ef08eb9ca502e7f0b353fbc2e15f.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="composer"&gt;&lt;a class="hover:opacity-90" href="#composer"&gt;Composer&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;初のエージェント型コーディングモデルをご紹介します。Composer は、同等の知性を持つモデルと比べて4倍速い最先端モデルです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/15ea68849329eaf054be1b8fc7010b6f87696960.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="ga"&gt;&lt;a class="hover:opacity-90" href="#ga"&gt;ブラウザー（GA）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;1.7でベータ提供を開始したAgent用のブラウザーは、現在GAになりました。2.0では、企業のチームがBrowserを活用できるよう、追加のサポートを提供しています。&lt;/p&gt;
+&lt;p&gt;ブラウザをエディタ内に埋め込めるようになり、要素の選択や DOM 情報をエージェントへ渡す強力な新ツールが利用可能になりました。&lt;a href="https://cursor.com/docs/agent/browser"&gt;ブラウザ&lt;/a&gt;の使い方の詳細を見る。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/0e795515f844148c8902c79ac41241b6d53b3e86.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;コードレビューの強化&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;個々のファイルを行き来することなく、Agentによる複数ファイルにまたがるすべての変更を、これまでより簡単に確認できるようになりました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/a6d569bdda67f7c349f8d343614406ca796769d9.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id="ga"&gt;&lt;a class="hover:opacity-90" href="#ga"&gt;サンドボックス化ターミナル（GA）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;1.7 のベータで導入されたサンドボックス化ターミナルは、macOS で一般提供（GA）になりました。2.0 では、macOS でエージェントのコマンドを既定で安全なサンドボックス内で実行します。&lt;/p&gt;
+&lt;p&gt;（許可リストに未登録の）シェルコマンドは、自動的にサンドボックスで実行され、ワークスペースへの読み書きは可能ですが、インターネットにはアクセスできません。詳しくは&lt;a href="https://cursor.com/docs/agent/terminal#sandboxing-beta"&gt;サンドボックス化&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/988f922156ea31ea5c4defb3f9d4a049e359b252.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;チーム向けコマンド&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cursor ダッシュボードで、チーム用のカスタムコマンドとルールを定義します。&lt;/p&gt;
+&lt;p&gt;このコンテキストは、エディタにファイルをローカル保存する必要なく、チームの全メンバーに自動的に適用され、チーム管理者によって一元的に管理されます。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/8b5e942ac4a17416e1e411b4d522f06f01a42e30-1371x764.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;ボイスモード&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;内蔵の音声認識（音声→テキスト変換）を使って、声でエージェントを操作できます。設定でカスタムの送信キーワードを指定し、そのキーワードでエージェントの実行をトリガーすることもできます。&lt;/p&gt;
+&lt;figure&gt;
+&lt;video autoplay="" class="media-border-container" loop="" muted="" playsinline="" src="https://cdn.sanity.io/files/2hv88549/production/f1ccc6dc28be339c8c3697af9be9779f8d60e5b2.mp4"&gt;&lt;/video&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;パフォーマンス改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cursor は、定義への移動、ホバー時のツールチップ、診断などの言語固有の機能に Language Server Protocol（LSP）を利用しています。&lt;/p&gt;
+&lt;p&gt;すべての言語で、LSP の読み込みと利用のパフォーマンスを大幅に向上しました。特に、エージェントの操作時や差分の表示時に顕著です。&lt;/p&gt;
+&lt;p&gt;利用可能なRAMに応じて動的に設定されるより高いメモリ上限により、大規模プロジェクトでもPythonおよびTypeScriptのLSPがデフォルトで高速化されました。&lt;/p&gt;
+&lt;p&gt;複数のメモリリークを修正し、全体的なメモリ使用効率を向上させました。&lt;/p&gt;
+&lt;h3 id="plan"&gt;&lt;a class="hover:opacity-90" href="#plan"&gt;バックグラウンドでのPlanモード&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;あるモデルで計画を作成し、別のモデルでその計画を実行できます。計画の実行は前面でもバックグラウンドでも選べ、並列エージェントで同時に計画して複数のプランをレビュー用に用意することも可能です。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2Fc6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/c6cc7d3939aa125079bcf86ecd5d417f6e0d815d-2032x1162.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;チームで共有できるコマンド&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;カスタムルール、コマンド、プロンプトをチーム全体で共有できます。Cursor Docs からディープリンクを作成できます。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/1f713d218a7c73ab33d30784054243fbfdbec494-985x650.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="ui"&gt;&lt;a class="hover:opacity-90" href="#ui"&gt;プロンプトUIの改良&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;ファイルとディレクトリは、いま「ピル」スタイルのチップとしてインライン表示されます。タグ付きコンテキストを含むプロンプトのコピー＆ペーストも改良しました。&lt;/p&gt;
+&lt;p&gt;コンテキストメニューから、@Definitions、@Web、@Link、@Recent Changes、@Linter Errors などの明示的な項目を多数削除しました。Agent は、プロンプト入力で手動でコンテキストを添付しなくても、自動的に必要なコンテキストを収集できるようになりました。&lt;/p&gt;
+&lt;figure class="stack"&gt;
+&lt;div class="media-border-container overflow-hidden"&gt;
+&lt;picture class="media-light block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/6d6a9c8760abfa5da30314949cfff834fa00bf80-1021x546.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;picture class="media-dark block h-full w-full"&gt;
+&lt;source media="(min-width: 661px)" srcset="/marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=640&amp;amp;q=70 640w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=750&amp;amp;q=70 750w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=828&amp;amp;q=70 828w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=1080&amp;amp;q=70 1080w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=1200&amp;amp;q=70 1200w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=1920&amp;amp;q=70 1920w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=2048&amp;amp;q=70 2048w, /marketing-static/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2hv88549%2Fproduction%2F091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png%3Fauto%3Dformat&amp;amp;w=3840&amp;amp;q=70 3840w"/&gt;
+&lt;img alt="" class="object-cover h-full w-full" decoding="async" fetchpriority="auto" loading="lazy" src="https://cdn.sanity.io/images/2hv88549/production/091993caf3c42c29f1ea68aa5b85b710c344036e-1021x546.png?auto=format"/&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+&lt;h3 id="agent-harness"&gt;&lt;a class="hover:opacity-90" href="#agent-harness"&gt;Agent Harness の強化&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;すべてのモデルで Agent を扱うための基盤となるハーネスを大幅に強化しました。特に GPT-5 Codex で、品質が顕著に向上しています。&lt;/p&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;クラウドエージェント&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;クラウドエージェントは、99.9% の可用性、即時起動、そして近日公開予定の新しいUIを提供します。エディターからエージェントをクラウドに送信する操作体験も改善しました。&lt;/p&gt;
+&lt;h3 id="enterprise-cursor"&gt;&lt;a class="hover:opacity-90" href="#enterprise-cursor"&gt;Enterprise 向け Cursor&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;サンドボックス化ターミナル：管理者向けコントロール&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;企業プランでは、チーム全体に対して&lt;a href="https://cursor.com/docs/agent/terminal#enterprise-controls"&gt;Sandboxed Terminal の標準設定&lt;/a&gt;を適用・強制できるようになりました。チーム単位で、サンドボックスの利用可否、Git アクセス、ネットワークアクセスを設定できます。&lt;/p&gt;
+&lt;h4 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;フック：クラウド配布&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;企業チームは、&lt;a href="https://cursor.com/docs/agent/hooks"&gt;フック&lt;/a&gt;を&lt;a href="https://cursor.com/dashboard?tab=team-content&amp;amp;section=hooks"&gt;Webダッシュボード&lt;/a&gt;から直接配布できるようになりました。管理者は新しいフックを追加し、下書きを保存し、どのフックをどのオペレーティングシステムに適用するかを選択できます。&lt;/p&gt;
+&lt;h4 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;監査ログ&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Cursor で、&lt;a href="https://cursor.com/docs/account/teams/dashboard#audit-log"&gt;管理者イベントのタイムスタンプ付きログ&lt;/a&gt;を表示できます。ユーザーアクセス、設定変更、Team Rule の編集、メンバー管理イベントが含まれます。&lt;/p&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/2-0</guid>
+      <pubDate>Wed, 29 Oct 2025 05:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>プランモードの強化、エディタ内AIコードレビュー、インスタントGrep</title>
+      <link>https://cursor.com/changelog/2-1</link>
+      <description>&lt;![CDATA[&lt;div class="prose"&gt;
+&lt;h3 id=""&gt;&lt;a class="hover:opacity-90" href="#"&gt;プランモードの改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;プランを作成する際、Cursor はプランの質を高めるために補足的な確認質問を行います。質問に簡単に回答できるインタラクティブな UI も表示されるようになりました。&lt;/p&gt;
+&lt;p&gt;生成されたプラン内を検索するには、⌘+F で検索できます。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h3 id="ai"&gt;&lt;a class="hover:opacity-90" href="#ai"&gt;AI コードレビュー&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;AI コードレビューを使って、Cursor 上でバグの検出と修正まで直接行えるようになりました。変更内容を解析し、問題点を検出してサイドパネルに表示します。&lt;/p&gt;
+&lt;p&gt;これは、GitHub（Enterprise Server を含む）や GitLab などのソースコード管理プロバイダ上で動作する Bugbot に加わる機能です。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;h3 id="instant-grep"&gt;&lt;a class="hover:opacity-90" href="#instant-grep"&gt;Instant Grep（ベータ）&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;エージェントが実行するすべての grep コマンドが即時に実行されるようになりました。&lt;/p&gt;
+&lt;p&gt;Instant Grep は Cursor のすべてのモデルでサポートされています。サイドバーからコードベースを手動検索する際にも利用され、正規表現や単語境界でのマッチングにも対応します。&lt;/p&gt;
+&lt;p&gt;この改善は、今後 1 週間かけてバージョン 2.1 のユーザーに段階的にロールアウトされます。&lt;/p&gt;
+&lt;figure&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;]]&gt;</description>
+      <guid isPermaLink="false">https://cursor.com/changelog/2-1</guid>
+      <pubDate>Fri, 21 Nov 2025 19:37:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
