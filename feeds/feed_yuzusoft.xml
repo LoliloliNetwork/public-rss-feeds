@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ゆずソフト 公式サイト トピックス</title>
+    <link>https://www.yuzu-soft.com/</link>
+    <description>ゆずソフト公式サイトの最新トピックス</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 12 Dec 2025 06:33:28 +0000</lastBuildDate>
+    <item>
+      <title>ゆずソフト最新作『ライムライト・レモネードジャム』の公式WEBサイトを公開しました！</title>
+      <link>https://www.yuzu-soft.com/products/lllj/index.html</link>
+      <description>ゆずソフト最新作『ライムライト・レモネードジャム』の公式WEBサイトを公開しました！</description>
+      <pubDate>Thu, 05 Jun 2025 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ゆずソフト最新作『ライムライト・レモネードジャム』マスターアップしました！</title>
+      <link>https://www.yuzu-soft.com/products/lllj/index.html</link>
+      <description>ゆずソフト最新作『ライムライト・レモネードジャム』マスターアップしました！</description>
+      <pubDate>Sun, 07 Sep 2025 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ゆずソフト最新作『ライムライト・レモネードジャム』本日発売です！</title>
+      <link>https://www.yuzu-soft.com/products/lllj/index.html</link>
+      <description>ゆずソフト最新作『ライムライト・レモネードジャム』本日発売です！</description>
+      <pubDate>Thu, 25 Sep 2025 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ゆずソフト８年ぶりのライブイベント『YUZUSOFTSONGFES2026』の日程が決定しました！！</title>
+      <link>https://www.yuzu-soft.com/live2026/index.html</link>
+      <description>ゆずソフト８年ぶりのライブイベント『YUZUSOFTSONGFES2026』の日程が決定しました！！</description>
+      <pubDate>Thu, 13 Nov 2025 15:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
