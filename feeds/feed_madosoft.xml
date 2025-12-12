@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 12 Dec 2025 11:20:58 +0000</lastBuildDate>
-    <item>
-      <title>TVアニメ「ハミダシクリエイティブ」公式サイトオープン！</title>
-      <link>https://madosoft.net/news/2240</link>
-      <description>TVアニメ「ハミダシクリエイティブ」公式サイトオープン！</description>
-      <pubDate>Mon, 12 Aug 2024 00:00:00 +0900</pubDate>
-    </item>
+    <lastBuildDate>Fri, 12 Dec 2025 12:46:06 +0000</lastBuildDate>
     <item>
       <title>まどそふとフェス2024 チケット優先先行販売 抽選受付開始！</title>
       <link>https://madosoft.net/news/2259</link>
@@ -307,6 +301,12 @@
       <link>https://madosoft.net/news/2727</link>
       <description>『ハミダシクリエイティブ＆凸 Wパック』と『ハミダシクリエイティブ Re:Re:call 豪華版』がセットになった「期間限定パック」発売決定！</description>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>『ハミダシクリエイティブ凸』ASMR（音声作品）シリーズ：第3弾の公式サイト公開！</title>
+      <link>https://madosoft.net/news/2730</link>
+      <description>『ハミダシクリエイティブ凸』ASMR（音声作品）シリーズ：第3弾の公式サイト公開！</description>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
