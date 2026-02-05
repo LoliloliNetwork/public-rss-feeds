@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Feb 2026 11:36:14 +0000</lastBuildDate>
-    <item>
-      <title>『ハミダシクリエイティブRe:Re:call』ギャラリーページ公開！</title>
-      <link>https://madosoft.net/news/2499</link>
-      <description>『ハミダシクリエイティブRe:Re:call』ギャラリーページ公開！</description>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>『ハミダシクリエイティブ』コラボビールセット販売開始！</title>
-      <link>https://madosoft.net/news/2501</link>
-      <description>『ハミダシクリエイティブ』コラボビールセット販売開始！</description>
-      <pubDate>Thu, 06 Mar 2025 00:00:00 +0900</pubDate>
-    </item>
+    <lastBuildDate>Thu, 05 Feb 2026 13:05:06 +0000</lastBuildDate>
     <item>
       <title>「第5回 秋葉原超同人祭Plus」参加のお知らせ</title>
       <link>https://madosoft.net/news/2503</link>
@@ -307,6 +295,18 @@
       <link>https://madosoft.net/news/2914</link>
       <description>『萌えゲーアワード2025』年間投票に「ハミダシクリエイティブRe:Re:call」がノミネート！</description>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>Switch版『セレクトオブリージュ』WEB体験版公開！</title>
+      <link>https://madosoft.net/news/2918</link>
+      <description>Switch版『セレクトオブリージュ』WEB体験版公開！</description>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>Switch版『セレクトオブリージュ』オリジナル店舗特典イラストを追加公開！</title>
+      <link>https://madosoft.net/news/2921</link>
+      <description>Switch版『セレクトオブリージュ』オリジナル店舗特典イラストを追加公開！</description>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
